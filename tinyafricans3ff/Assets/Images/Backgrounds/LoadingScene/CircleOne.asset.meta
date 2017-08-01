@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b0dc298fb044848b7bafc0a2790c03c2
+timeCreated: 1464336050
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"84\" height=\"84\" viewBox=\"0, 0, 84, 84\">\n  <g id=\"CircleOne\"
+    transform=\"translate(-278, -337)\">\n    <path d=\"M320,421 C296.804,421 278,402.196
+    278,379 C278,355.804 296.804,337 320,337 C343.196,337 362,355.804 362,379 C362,402.196
+    343.196,421 320,421 z\" fill=\"#DACC1D\"/>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

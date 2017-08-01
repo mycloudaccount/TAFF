@@ -1,0 +1,7 @@
+<GameTitle xmlns="MarkLight">
+
+	<Image Style="TitleAfricans" Id="TitleAfricansImage" Alignment="Top" Offset="0,-100,0,0"/> 
+	<Image Style="TitleFreedom" Id="TitleFreedomImage" Alignment="Bottom" Offset="0,50,0,0"/> 
+	<Image Style="Title3For" Id="Title3ForImage" Alignment="Top" Offset="0,0,0,0" Scale="0,0,0"/> 
+
+</GameTitle>

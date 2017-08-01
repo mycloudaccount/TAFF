@@ -1,0 +1,14 @@
+<ChallengeHUD xmlns="MarkLight">
+
+	<Region Id="MainRegionMount" Width="640px" Height="480px"></Region>
+	<Region Id="MainRegion" Width="640px" Height="480px" BackgroundColor="#00FFFF77" Offset="0,0,0,0">
+
+		<StatusDialog Id="HeroDialog" Width="200" Height="80" Alignment="TopLeft" Offset="10,10,0,0">
+		</StatusDialog>
+
+		<StatusDialog Id="EnemyDialog" Width="200" Height="80" Alignment="TopRight" Offset="0,10,10,0">
+		</StatusDialog>
+
+	</Region>
+
+</ChallengeHUD>

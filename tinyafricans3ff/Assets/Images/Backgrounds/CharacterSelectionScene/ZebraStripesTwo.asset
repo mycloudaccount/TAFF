@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4371226
+Mesh:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ZebraStripesTwo
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 225
+    topology: 0
+    firstVertex: 0
+    vertexCount: 81
+    localAABB:
+      m_Center: {x: 0, y: 0, z: -0}
+      m_Extent: {x: 3.1999998, y: 1.833675, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 00000100020000000300010000000400030005000400000005000600040007000600050007000800060009000800070009000a0008000b000a0009000b000c000a000b000d000c000b000e000d000b000f000e000b0010000f000b0011001000120011000b0012001300110012001400130012001500140012001600150012001700160017001200180019000c000d001a000c0019001b000c001a001b001c000c001d001c001b001d001e001c001e001d001f002000210022002000230021002300240025002400230020002600270028002900270026002a00270029002b0027002a002c0027002b002c002d0027002e002d002c002f002d002e0025002d002f0024002d002500240030002d00240031003000320031002400320033003100340033003200340035003300360035003400360037003500380037003600380039003700390038003a003b003c003d003e003c003b003e003f003c0040003f003e0041003f00400042003f004100420043003f0044004300420045004300440045004600430045004700460048004700450048004900470048004a00490048004b004a0048004c004b0048004d004c004e004d0048004e004f004d004f004e005000
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 5
+    m_VertexCount: 81
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 2
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1296
+    _typelessdata: 69de01c03eb3403f00000080ffffffff55cff5bfc2a3593f00000080ffffffffb31afabfc01c513f00000080ffffffff0030eebf23f86b3f00000080ffffffffffc5e7bf56b27f3f00000080ffffffff7c3f0dc00820213f00000080ffffffff1b77e2bf04398a3f00000080ffffffffc1171ac004d8033f00000080ffffffff665cdcbf32559a3f00000080fffffffff15e27c0ec2fd33e00000080ffffffffb129d7bf7bdaaf3f00000080ffffffff87d739c0d80d933e00000080ffffffff5d98d4bff20cc43f00000080ffffffffe47e03c04f92943f00000080ffffffff89c806c0b0208f3f00000080fffffffff65d09c0d68b8b3f00000080ffffffff18c50ec0a62c853f00000080ffffffff3f4d17c0ebe27a3f00000080ffffffffcccc4cc0e87d333e00000080fffffffffa0523c0913f6c3f00000080ffffffff40822ec04243633f00000080ffffffffc61139c0aea35e3f00000080ffffffff180442c02f175d3f00000080ffffffff03e74ac070b65d3f00000080ffffffffcccc4cc08b375e3f00000080ffffffff50f2fabfc286a13f00000080ffffffffc06ef0bf1d3db03f00000080ffffffffd282e7bfb280bf3f00000080fffffffff3dbd3bf876dd53f00000080ffffffff7241ddbffbcbd43f00000080ffffffff5f71d4bf8deee63f00000080ffffffff80cad4bfddb5ea3f00000080ffffffffa0f8d53f0d84e6bf00000080ffffffff148dda3f095fe2bf00000080ffffffff30cad43fddb5eabf00000080ffffffff4053f43f7585c1bf00000080ffffffff644fdf3f6d21cabf00000080ffffffff922703403155aebf00000080ffffffff7ca5464082f54bbf00000080ffffffffcccc4c40346d87be00000080ffffffffcccc4c4082b744bf00000080ffffffffdc38324022a169bf00000080ffffffff98d42740fa017cbf00000080ffffffffaafb1c40c31289bf00000080ffffffff88381240d50996bf00000080ffffffff181d4b4094a98abe00000080ffffffff920a0d40b53c9dbf00000080ffffffff12af09405d85a2bf00000080ffffffff00793f408c10a6be00000080ffffffffd2ed3140acddcebe00000080ffffffffc447ec3fc720aabf00000080ffffffff10c327408ca1f4be00000080ffffffff58b3f73f9beb92bf00000080ffffffff24671d40c6b611bf00000080ffffffff24a602405e7278bf00000080ffffffff8877134012df2dbf00000080ffffffffae730840ee2559bf00000080ffffffff94d90e40a6d03dbf00000080ffffffffcaa60c40c66446bf00000080ffffffff642849406cc5b63e00000080ffffffffcccc4c40b2f43d3f00000080ffffffffcccc4c402819b13e00000080ffffffff224b39404880c23e00000080ffffffffb01b4840c4033e3f00000080ffffffffec952e40083cbf3e00000080ffffffff2e042740945cb63e00000080ffffffff34332340bc60af3e00000080ffffffff14da3840e0ee383f00000080fffffffffe181f40046ea53e00000080ffffffffda771540d834873e00000080ffffffffb8453140d847333f00000080ffffffff70862940729d2a3f00000080ffffffff5010054098d2113e00000080ffffffff6a0f22407a4e1e3f00000080ffffffff22931e403a97163f00000080ffffffff2ce81a40641e0d3f00000080ffffffffc22112404051e83e00000080ffffffff1aec024020b08a3e00000080ffffffff7c97cf3f7009d9bd00000080ffffffffa4ccce3f104da4bd00000080ffffffffb85dc03f487b33be00000080ffffffff
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: -0}
+    m_Extent: {x: 3.1999998, y: 1.833675, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35648741dd5b14baa82bec08abfe7457, type: 3}
+  m_Name: ZebraStripesTwo
+  m_EditorClassIdentifier: 
+  _lastTimeModified: 636031100439698070
+  _documentAsset: {fileID: 11441986}
+  _sharedMesh: {fileID: 4371226}
+  _antialiasing: 0
+  _antialiasingWidth: 0
+  _generateCollider: 0
+  _keepSVGFile: 0
+  _ignoreSVGCanvas: 1
+  _colliderShape: []
+  _format: 2
+  _useGradients: 1
+  _meshCompression: 0
+  _optimizeMesh: 1
+  _generateNormals: 0
+  _generateTangents: 0
+  _scale: 0.01
+  _vpm: 1000
+  _depthOffset: 0.01
+  _compressDepth: 1
+  _pivotPoint: {x: 0.5, y: 0.5}
+  _customPivotPoint: 0
+  _border: {x: 0, y: 0, z: 0, w: 0}
+  _sliceMesh: 0
+  _sharedGradients: []
+  _sharedShaders:
+  - SVG Importer/SolidColor/SolidColorAlphaBlended
+  _canvasRectangle:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 6.3999996
+    height: 3.6673498
+  _layers: []
+--- !u!114 &11441986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363e9872ad27a4ca59c07d233fdf0023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _errors: 
+  _svgFile: 
+  _title: 
+  _description: 

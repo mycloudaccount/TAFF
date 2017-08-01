@@ -1,0 +1,6 @@
+<LevelMenuUserInterface xmlns="MarkLight">
+	<UserInterface>
+		<LevelMenu/>
+	</UserInterface>
+    <EventSystem />
+</LevelMenuUserInterface>

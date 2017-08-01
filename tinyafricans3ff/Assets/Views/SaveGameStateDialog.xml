@@ -1,0 +1,30 @@
+<SaveGameStateDialog xmlns="MarkLight">
+
+	<Region Id="MainRegionMount" Width="640px" Height="480px"/>
+	<Region Id="MainRegion" Width="640px" Height="480px" Offset="0,480,0,0" BackgroundColor="#AAFFFF77">
+		<Region Id="MainFrameRegion" Width="240px" Height="140px">
+			<Frame Style="GreenCheckersTypeHor" Width="100%" Height="100%" Alpha="0.80"/>
+			<Frame Style="FramePlasticTypeB" Width="101%" Height="101%"/>
+			<Group ContentAlignment="Center" Spacing="10px" Orientation="Vertical" Width="100%" Height="100%" Margin="18,18,18,15">
+				<Label Style="TitleTypeA" FontSize="20" Text="Save Settings" Margin="0,5,0,0"/>
+				<Label 
+					Style="InfoText" 
+					Margin="0,0,0,0"
+					Width="100%" 
+					Height="20"
+					TextAlignment="Center"
+					Text="Settings have changed.  Click Save to save settings, or OK to discard."/>
+				<Group 
+					ContentAlignment="Center" 
+					Alignment="Center" 
+					Spacing="5px" 
+					Orientation="Horizontal" 
+					Offset="0,0,0,0">
+					<Button Style="DialogButton" Text="Save" Click="Save"/>
+					<Button Style="DialogButton" Text="OK" Click="Ok"/>
+				</Group>
+			</Group>
+		</Region>
+	</Region>
+
+</SaveGameStateDialog>

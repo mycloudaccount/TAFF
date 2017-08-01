@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &134866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 499194}
+  - component: {fileID: 3386508}
+  - component: {fileID: 2312934}
+  - component: {fileID: 11429190}
+  - component: {fileID: 11469914}
+  m_Layer: 12
+  m_Name: WaterWheel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134866}
+  m_LocalRotation: {x: -0.000000029802322, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.57, y: 0, z: 1.4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2312934
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134866}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: acbdf8bf8ad5b8144a1cf1bdbe1ca00d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3386508
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134866}
+  m_Mesh: {fileID: 0}
+--- !u!114 &11429190
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0023e7142a72940a92d9f02d6fb2f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - offset: {x: -0.44, y: 1.55, z: 0}
+    uvOffX: 0
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 0
+    mat: 0
+  - offset: {x: 0, y: 1.66, z: 0}
+    uvOffX: 1
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 1
+    mat: -1
+  - offset: {x: -0.01, y: 1.63, z: 0.34}
+    uvOffX: 0
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 0
+    mat: 0
+  - offset: {x: 0.88, y: 1.45, z: 0.16}
+    uvOffX: 0
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 1
+    mat: 0
+  - offset: {x: 1.11, y: 1, z: 0.13}
+    uvOffX: 0
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 0
+    mat: 0
+  - offset: {x: -1, y: -1, z: 0}
+    uvOffX: 0
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 1
+    mat: 0
+  - offset: {x: 0, y: 1.66, z: 0}
+    uvOffX: 0
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 0
+    mat: 0
+  - offset: {x: 1, y: 1, z: 0}
+    uvOffX: 0
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 0
+    mat: 0
+  - offset: {x: 1, y: 1, z: 0}
+    uvOffX: 0
+    uvOffY: 0
+    uvScaleX: 1
+    uvScaleY: 1
+    uvMapping: 0
+    mat: 0
+  prefs:
+    modul: 0.74
+    thickness: 1.66
+    dk: 5.1800003
+    d: 4.44
+    ramp: 0.7
+    slope: 0
+    coneX: -0.13
+    coneY: 0
+    teethCount: 12
+    teethParts: 3
+    bodyParts: 1
+    autoUV: 1
+    tangens: 0
+    flanks: 1
+    inner: 0
+    capT: 1
+    capB: 1
+  ms: 0
+  df: 3.515
+  vt: 706
+--- !u!114 &11469914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 164ae60440e5b0f448da2bc10c9fcd69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  settings:
+    isMotor: 1
+    isShaft: 0
+    isWorm: 0
+    invWormOut: 0
+    updatePowerchainOnce: 0
+    updatePowerchainLive: 0
+    motorSpeed: -60
+    outputTo: []
+  actualSpeed: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 134866}
+  m_IsPrefabParent: 1

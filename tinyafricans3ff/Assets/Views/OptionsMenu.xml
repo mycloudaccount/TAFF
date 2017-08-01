@@ -1,0 +1,72 @@
+<OptionsMenu xmlns="MarkLight">
+
+	<Region Id="OptionsRegionMount" Alignment="Center" Width="640" Height="480"/>
+	<Region Id="OptionsRegion" Alignment="Center" Width="640" Height="480" Offset="0,-480,0,0">
+		<Image Id="OptionsBackgroundImage" Width="100%" Height="100%" BackgroundColor="#FFFFFF" Alpha="0.5"/>
+		<Group Id="OptionsMenuButtonGroup" Width="100%" Orientation="Vertical" ContentAlignment="Center" Spacing="5" Alignment="Center" Offset="0,-20,0,0">
+	    	<Region Width="80%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+				<Frame Style="FrameBackgroundTypeA" Width="55%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+				<Label Style="PageHeader" Text="OPTIONS" Alignment="Center" Margin="0,6,0,0"/>
+				<Frame Style="FramePlasticTypeA" Width="60%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+			</Region>
+			<Group Width="430px" Orientation="Horizontal" Spacing="0" ContentAlignment="Left" BackgroundColor="#88FFFFFF" Highlighted-BackgroundColor="#33FFFFFF">
+				<Region Width="370px" Height="50px" BackgroundColor="#33FF00FF" Offset="5,0,0,0">
+					<Label Style="OptionsLabel" Text="Select Character..." Alignment="Left" TextAlignment="Left" Offset="5,3,0,0"/>
+				</Region>
+				<Region Width="60px" Height="50px" Alignment="Left" BackgroundColor="#77FF0077">
+					<Button Style="GoButton" Id="SelectCharacterButton" Click="SelectCharacter" Text="GO!" Width="55px" Height="45px" Alignment="Center" Offset="0,0,0,0"/>
+				</Region>
+			</Group>
+			<Group Width="430px" Orientation="Horizontal" Spacing="0" ContentAlignment="Left" BackgroundColor="#88FFFFFF">
+				<Region Width="370px" Height="50px" BackgroundColor="#33FF00FF" Offset="5,0,0,0">
+					<Label Style="OptionsLabel" Text="Customize Character..." Alignment="Left" TextAlignment="Left" Offset="5,3,0,0"/>
+				</Region>
+				<Region Width="60px" Height="50px" Alignment="Left" BackgroundColor="#77FF0077">
+					<Button Style="GoButton" Id="CustomizeCharacterButton" Click="CustomizeCharacter" Text="GO!" Width="55px" Height="45px" Alignment="Center" Offset="0,0,0,0"/>
+				</Region>
+			</Group>
+			<Group Width="430px" Orientation="Horizontal" Spacing="0" ContentAlignment="Left" BackgroundColor="#88FFFFFF">
+				<Region Width="370px" Height="50px" BackgroundColor="#33FF00FF" Offset="5,0,0,0">
+					<Label Style="OptionsLabel" Text="Character Settings..." Alignment="Left" TextAlignment="Left" Offset="5,3,0,0"/>
+				</Region>
+				<Region Width="60px" Height="50px" Alignment="Left" BackgroundColor="#77FF0077">
+					<Button Style="GoButton" Id="CharacterSettingsButton" Click="CharacterSettings" IsDisabled="true" Text="GO!" Width="55px" Height="45px" Alignment="Center" Offset="0,0,0,0"/>
+				</Region>
+			</Group>
+			<Group Width="430px" Orientation="Horizontal" Spacing="0" ContentAlignment="Left" BackgroundColor="#88FFFFFF">
+				<Region Width="370px" Height="50px" BackgroundColor="#33FF00FF" Offset="5,0,0,0">
+					<Label Style="OptionsLabel" Text="Game Settings..." Alignment="Left" TextAlignment="Left" Offset="5,3,0,0"/>
+				</Region>
+				<Region Width="60px" Height="50px" Alignment="Left" BackgroundColor="#77FF0077">
+					<Button Style="GoButton" Id="GameSettingsButton" Click="GameSettings" Text="GO!" Width="55px" Height="45px" Alignment="Center" Offset="0,0,0,0"/>
+				</Region>
+			</Group>
+			<Group Width="430px" Orientation="Horizontal" Spacing="0" ContentAlignment="Left" BackgroundColor="#88FFFFFF">
+				<Region Width="370px" Height="50px" BackgroundColor="#33FF00FF" Offset="5,0,0,0">
+					<Label Style="OptionsLabel" Text="View Story..." Alignment="Left" TextAlignment="Left" Offset="5,3,0,0"/>
+				</Region>
+				<Region Width="60px" Height="50px" Alignment="Left" BackgroundColor="#77FF0077">
+					<Button Style="GoButton" Id="ViewStoryButton" Click="ViewStory" IsDisabled="true" Text="GO!" Width="55px" Height="45px" Alignment="Center" Offset="0,0,0,0"/>
+				</Region>
+			</Group>
+		</Group>
+		<Button Style="BasicButtonTypeA" Id="ExitOptionsButton" Text="EXIT" Click="ExitOptions" Alignment="Bottom" Offset="0,0,0,20"/>
+	</Region>
+
+    <ViewAnimation Id="OptionsMenuButtonGroupInAnimation">
+        <Animate Field="OptionsMenuButtonGroup.Alpha" From="0" To="1.0" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="OptionsMenuButtonGroupOutAnimation">
+        <Animate Field="OptionsMenuButtonGroup.Alpha" From="1.0" To="0" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="OptionsBackgroundImageInAnimation">
+        <Animate Field="OptionsBackgroundImage.Alpha" From="1.0" To="0.6" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="OptionsBackgroundImageOutAnimation">
+        <Animate Field="OptionsBackgroundImage.Alpha" From="0.6" To="1.0" Duration="1000ms" />
+    </ViewAnimation>
+
+</OptionsMenu>

@@ -1,0 +1,6 @@
+<ChallengeHUDUserInterface xmlns="MarkLight">
+	<UserInterface>
+		<ChallengeHUD/>
+	</UserInterface>
+    <EventSystem />
+</ChallengeHUDUserInterface>

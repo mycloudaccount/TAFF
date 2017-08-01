@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: df192a212e794405c85d808d3ce60e8d
+timeCreated: 1464514126
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"500\" height=\"500\" viewBox=\"0, 0, 500, 500\">\n  <g
+    id=\"CircleFour\" transform=\"translate(-70, -124)\">\n    <path d=\"M320,624
+    C181.929,624 70,512.071 70,374 C70,235.929 181.929,124 320,124 C458.071,124 570,235.929
+    570,374 C570,512.071 458.071,624 320,624 z\" fill=\"#FADA93\"/>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

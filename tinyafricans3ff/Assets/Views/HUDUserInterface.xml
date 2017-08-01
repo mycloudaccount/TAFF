@@ -1,0 +1,6 @@
+<HUDUserInterface xmlns="MarkLight">
+	<UserInterface>
+		<HUDMenu/>
+	</UserInterface>
+    <EventSystem />
+</HUDUserInterface>

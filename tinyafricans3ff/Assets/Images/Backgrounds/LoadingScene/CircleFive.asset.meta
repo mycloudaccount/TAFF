@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c3e87b266b85344028979755906b254c
+timeCreated: 1464514014
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"680\" height=\"680\" viewBox=\"0, 0, 680, 680\">\n  <g
+    id=\"CircleFive\" transform=\"translate(20, -34)\">\n    <path d=\"M320,714 C132.223,714
+    -20,561.777 -20,374 C-20,186.223 132.223,34 320,34 C507.777,34 660,186.223 660,374
+    C660,561.777 507.777,714 320,714 z\" fill=\"#C2EDFF\"/>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

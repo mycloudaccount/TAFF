@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 884b6fe56f69b4b5badebe34d25c63a8
+timeCreated: 1464469594
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"168\" height=\"168\" viewBox=\"0, 0, 168, 168\">\n  <g
+    id=\"CircleTwo\" transform=\"translate(-236, -290)\">\n    <path d=\"M320,458
+    C273.608,458 236,420.392 236,374 C236,327.608 273.608,290 320,290 C366.392,290
+    404,327.608 404,374 C404,420.392 366.392,458 320,458 z\" fill=\"#DDD576\"/>\n
+    \ </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

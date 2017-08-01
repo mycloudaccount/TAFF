@@ -1,0 +1,6 @@
+<SplashMenuUserInterface xmlns="MarkLight">
+	<UserInterface>
+		<SplashMenu/>
+	</UserInterface>
+    <EventSystem />
+</SplashMenuUserInterface>

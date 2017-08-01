@@ -1,0 +1,57 @@
+<LevelMenu xmlns="MarkLight">
+
+	<Region Id="MainRegionMount" Width="640px" Height="480px"></Region>
+	<Region Id="MainRegion" Width="640px" Height="480px" BackgroundColor="#00FFFF77" Offset="0,0,0,0">
+
+		<!-- Navigation View Object -->
+		<Image Id="NavigationRegionMountImage" BackgroundColor="Red" Alignment="TopLeft" Margin="15,15,0,0" Width="160" Height="160" Alpha="0"/>
+		<Region Alignment="TopLeft" Offset="-160,-160,0,0" Width="150" Height="150" Id="NavigationRegion" Rotation="0,0,260">
+			<Image Id="SunRaysTypeA01" Style="SunRaysTypeA" Material="{SunRaysMaterialTypeA}" Scale="0.8,0.8,0.8" Offset="0,0,5,5" Alignment="BottomRight"/>
+			<Frame Alignment="TopLeft" Style="FrameCornerTypeA" Width="100%" Height="100%"/>
+			<Frame Style="BronzeButton" Alignment="TopLeft" Offset="23,23,0,0">
+				<Button Style="ArrowLeft" Alignment="Center" Width="45%" Height="45%" Offset="0,0,0,0" Click="Exit"/>
+			</Frame>
+			<Frame Style="BronzeButton" Width="40" Height="40" Alignment="TopRight" Offset="0,24,20,0">
+				<Button Style="Options" Alignment="Center" Width="45%" Height="35%" Offset="0,0,0,0"/>
+			</Frame>
+			<Frame Style="BronzeButton" Width="40" Height="40" Alignment="BottomLeft" Offset="24,0,0,20">
+				<Button Style="Info" Alignment="Center" Width="30%" Height="60%" Offset="2,0,0,1"/>
+			</Frame>
+		</Region>
+		<!-- Navigation View Object -->
+
+		<!-- Level Title Panel -->
+		<Region Id="LevelTitleMountRegion" Width="320px" Height="120px" Alignment="TopRight" BackgroundColor="#00FFFF77" Offset="0,27,15,0"></Region>
+		<Region Id="LevelTitleRegion" Width="320px" Height="120px" Alignment="TopRight" BackgroundColor="#00FFFF77" Offset="0,-185,15,0">
+
+			<Frame Style="FrameBackgroundTypeA" Width="90%" BackgroundColor="#AAA020F0" Height="74%" Alpha="0.60"/>
+			<Frame Style="FramePlasticTypeB" Width="101%" Height="101%"/>
+			<Label Style="LevelInfoText" Id="LevelDescription" TextAlignment="Center" Width="100%" Offset="0,5,0,0"/>
+
+	    	<Region Width="80%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+				<Frame Style="FrameBackgroundTypeA" Width="90%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+				<Label Style="TitleTypeA" Id="LevelTitle" Alignment="Center" Margin="0,6,0,0"/>
+				<Frame Style="FramePlasticTypeA" Width="100%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+				<Image Style="ScrewTypeA" Alignment="Left" Offset="2,-9,0,0"/>
+				<Image Style="ScrewTypeA" Alignment="Right" Offset="0,-9,2,0"/>
+	    	</Region>
+
+	    	<Region Id="GoButtonRegion" Width="80px" Height="80px" Alignment="Bottom" Offset="0,0,0,-45">
+				<Frame Style="FramePlasticTypeB" Width="100%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+				<Frame Style="FramePlasticTypeB" BackgroundColor="#55000000" Width="100%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+				<Image Style="ScrewTypeA" Alignment="Left" Offset="2,-13,0,0"/>
+				<Image Style="ScrewTypeA" Alignment="Right" Offset="0,-13,2,0"/>
+				<Button Style="LevelGoButton" Text="GO!" Click="Go"/>
+	    	</Region>
+
+		</Region>
+		<!-- Level Title Panel -->
+
+		<!-- Left Arrow (for level selection) -->
+		<Button Id="LeftGreenArrowButton" Style="LeftGreenArrowButton" Alignment="Left" Click="DecreaseLevel" Offset="0,80,0,0"/>
+		<Button Id="RightGreenArrowButton" Style="RightGreenArrowButton" Alignment="Right" Click="IncreaseLevel" Offset="0,80,0,0"/>
+
+
+	</Region>
+
+</LevelMenu>

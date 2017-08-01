@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 3e1bed2edacfa447683d1911fbb87e9d
+timeCreated: 1464519486
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"60\" height=\"60\" viewBox=\"0, 0, 60, 60\">\n  <defs>\n
+    \   <clipPath id=\"Clip_1\">\n      <path d=\"M257.052,179.055 L257.052,239.055
+    L197.052,239.055 L197.052,179.055 L257.052,179.055 z\"/>\n    </clipPath>\n    <filter
+    id=\"Shadow_2\">\n      <feGaussianBlur in=\"SourceAlpha\" stdDeviation=\"8\"/>\n
+    \     <feOffset dx=\"0\" dy=\"0\" result=\"offsetblur\"/>\n      <feFlood flood-color=\"#000000\"/>\n
+    \     <feComposite in2=\"offsetblur\" operator=\"in\"/>\n    </filter>\n  </defs>\n
+    \ <g id=\"FrameBackgroundTypeB\" transform=\"translate(-197.052, -179.055)\">\n
+    \   <g>\n      <path d=\"M197.052,179.055 L257.052,179.055 L257.052,239.055 L197.052,239.055
+    L197.052,179.055 z\" fill=\"#423D2E\"/>\n      <g>\n        <path d=\"M180.052,162.055
+    L274.052,162.055 L274.052,256.055 L180.052,256.055 z M257.052,179.055 L197.052,179.055
+    L197.052,239.055 L257.052,239.055 L257.052,179.055 z\" fill=\"rgba(0,0,0,0.75)\"
+    clip-path=\"url(#Clip_1)\" filter=\"url(#Shadow_2)\"/>\n        <path d=\"M180.052,166.055
+    L274.052,166.055 L270.052,162.055 L270.052,256.055 L274.052,252.055 L180.052,252.055
+    L184.052,256.055 L184.052,162.055 L180.052,166.055 z M180.052,158.055 C177.842,158.055
+    176.052,159.845 176.052,162.055 L176.052,256.055 C176.052,258.264 177.842,260.055
+    180.052,260.055 L274.052,260.055 C276.261,260.055 278.052,258.264 278.052,256.055
+    L278.052,162.055 C278.052,159.845 276.261,158.055 274.052,158.055 L180.052,158.055
+    z M257.052,175.055 L197.052,175.055 C194.842,175.055 193.052,176.845 193.052,179.055
+    L193.052,239.055 C193.052,241.264 194.842,243.055 197.052,243.055 L257.052,243.055
+    C259.261,243.055 261.052,241.264 261.052,239.055 L261.052,179.055 C261.052,176.845
+    259.261,175.055 257.052,175.055 z M257.052,183.055 L253.052,179.055 L253.052,239.055
+    L257.052,235.055 L197.052,235.055 L201.052,239.055 L201.052,179.055 L197.052,183.055
+    L257.052,183.055 z\" fill=\"rgba(0,0,0,0.75)\" clip-path=\"url(#Clip_1)\" filter=\"url(#Shadow_2)\"/>\n
+    \     </g>\n    </g>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

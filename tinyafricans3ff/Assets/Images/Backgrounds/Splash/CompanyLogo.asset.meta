@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e9500e153fd8440db86263a718bf9f31
+timeCreated: 1466887823
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"228.789\" height=\"84\" viewBox=\"0, 0, 228.789, 84\">\n
+    \ <g id=\"CompanyLogo\" transform=\"translate(-205.605, -94.5)\">\n    <text transform=\"matrix(1,
+    0, 0, 1, 320, 136.5)\">\n      <tspan x=\"-42.318\" y=\"-14\" font-family=\"Tabardo\"
+    font-size=\"36\" fill=\"#FFFFFF\">Tiny </tspan>\n      <tspan x=\"-98.694\" y=\"26\"
+    font-family=\"Tabardo\" font-size=\"36\" fill=\"#FFFFFF\">AFRICANS</tspan>\n    </text>\n
+    \ </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

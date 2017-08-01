@@ -1,0 +1,30 @@
+<StatusDialog xmlns="MarkLight">
+
+	<Region Id="MainRegion" Width="200px" Height="80px" BackgroundColor="#00FFFFFF">
+
+		<Region Width="80px" Height="60px" Alignment="TopLeft">
+			<Image Width="100%" Height="100%" Alpha="0.3" BackgroundColor="#DDFDDF00" Offset="0,0,0,0"/>
+			<Image Id="EnemyOneFaceClosed" Style="EnemyOneFaceClosed" Scale="0.5" IsActive="false"/>
+			<Image Id="EnemyOneFaceOpened" Style="EnemyOneFaceOpened" Scale="0.5" IsActive="false"/>
+			<Image Id="SisterOneFaceOpened" Style="SisterOneFaceOpened" Scale="0.5" IsActive="false"/>
+			<Image Id="SisterOneFaceClosed" Style="SisterOneFaceClosed" Scale="0.5" IsActive="false"/>
+			<Mask ShowMaskGraphic="true" Alignment="Bottom" Width="80px" Height="20px" Offset="0,0,0,-20" BackgroundColor="#55FFFFFF">
+				<Region Id="CharacterLabelRegionMount" Width="100%" Height="100%" BackgroundColor="#00FF00FF"/>
+				<Label Id="CharacterLabel" Style="CharacterLabel" Text="{CharacterName}" Alignment="Bottom" Width="120px" Height="30px" Offset="0,-20,0,0"/>
+			</Mask>
+			<Frame Style="FramePlasticTypeD" Width="103%" Height="103%"/>
+		</Region>
+
+		<Region Width="120px" Height="50" Alignment="TopRight">
+			<Group Orientation="Vertical" Width="100%" Spacing="5" Offset="0,12,0,0">
+				<Slider Style="HealthSlider" Id="HealthSlider" Width="110px" Value="{HealthValue}" Min="0" Max="100" Length="150" CanSlide="false" SliderHandleLength="0"/>
+				<Label Id="CharacterHealthLabel" Style="InfoText" Text="{StrengthValue}/100" Width="120px" Height="10px" Offset="5,0,0,0"/>
+				<Slider Style="StrengthSlider" Id="StengthSlider" Width="110px" Value="{StrengthValue}" Min="0" Max="100" Length="150" CanSlide="false" SliderHandleLength="0"/>
+				<Label Id="CharacterStrengthLabel" Style="InfoText" Text="{HealthValue}/100" Width="120px" Height="10px" Offset="5,0,0,0"/>
+			</Group>
+		</Region>
+
+
+	</Region>
+
+</StatusDialog>

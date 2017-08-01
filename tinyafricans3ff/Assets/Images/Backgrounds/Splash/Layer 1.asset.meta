@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: cc7814a6eb7024314a0394f6d933001d
+timeCreated: 1466730382
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"333\" height=\"316\" viewBox=\"0, 0, 333, 316\">\n  <g
+    id=\"Layer_1\" transform=\"translate(-145, -166)\">\n    <g>\n      <path d=\"M146.5,167.5
+    L234.5,167.5 L234.5,247.5 L146.5,247.5 L146.5,167.5 z\" fill=\"#FFFFFF\"/>\n      <path
+    d=\"M146.5,167.5 L234.5,167.5 L234.5,247.5 L146.5,247.5 L146.5,167.5 z\" fill-opacity=\"0\"
+    stroke=\"#000000\" stroke-width=\"1\"/>\n    </g>\n    <g>\n      <path d=\"M283.5,294.5
+    L367.5,294.5 L367.5,385.5 L283.5,385.5 L283.5,294.5 z\" fill=\"#FFFFFF\"/>\n      <path
+    d=\"M283.5,294.5 L367.5,294.5 L367.5,385.5 L283.5,385.5 L283.5,294.5 z\" fill-opacity=\"0\"
+    stroke=\"#000000\" stroke-width=\"1\"/>\n    </g>\n    <g>\n      <path d=\"M431.5,437.5
+    L468.5,437.5 L468.5,481.5 L431.5,481.5 L431.5,437.5 z\" fill=\"#FFFFFF\"/>\n      <path
+    d=\"M431.5,437.5 L468.5,437.5 L468.5,481.5 L431.5,481.5 L431.5,437.5 z\" fill-opacity=\"0\"
+    stroke=\"#000000\" stroke-width=\"1\"/>\n    </g>\n    <g>\n      <path d=\"M399.5,191.5
+    L477.5,191.5 L477.5,269.5 L399.5,269.5 L399.5,191.5 z\" fill=\"#FFFFFF\"/>\n      <path
+    d=\"M399.5,191.5 L477.5,191.5 L477.5,269.5 L399.5,269.5 L399.5,191.5 z\" fill-opacity=\"0\"
+    stroke=\"#000000\" stroke-width=\"1\"/>\n    </g>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

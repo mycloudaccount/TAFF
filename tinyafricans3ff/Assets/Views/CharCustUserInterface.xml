@@ -1,0 +1,6 @@
+<CharCustUserInterface xmlns="MarkLight">
+	<UserInterface>
+		<CharacterCustomization/>
+	</UserInterface>
+    <EventSystem />
+</CharCustUserInterface>

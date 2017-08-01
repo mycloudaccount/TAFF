@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c30ce18ca2139410d98b4d8b138c499b
+timeCreated: 1466741079
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"98\" height=\"98\" viewBox=\"0, 0, 98, 98\">\n  <g id=\"PulsingCircle\"
+    transform=\"translate(-271, -191)\">\n    <g>\n      <path d=\"M320.5,280.5 C298.409,280.5
+    280.5,262.591 280.5,240.5 C280.5,218.409 298.409,200.5 320.5,200.5 C342.591,200.5
+    360.5,218.409 360.5,240.5 C360.5,262.591 342.591,280.5 320.5,280.5 z\" fill=\"#FFFFFF\"/>\n
+    \     <path d=\"M320.5,280.5 C298.409,280.5 280.5,262.591 280.5,240.5 C280.5,218.409
+    298.409,200.5 320.5,200.5 C342.591,200.5 360.5,218.409 360.5,240.5 C360.5,262.591
+    342.591,280.5 320.5,280.5 z\" fill-opacity=\"0\" stroke=\"#FFEB00\" stroke-width=\"4\"/>\n
+    \   </g>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

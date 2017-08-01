@@ -1,0 +1,4 @@
+repository "tinyafricans3ff"
+  path "/"
+    smartbranch "/main/character-manager"  
+     

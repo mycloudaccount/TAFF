@@ -1,0 +1,6 @@
+<MainTitle>
+    <Group Spacing="0px">
+      <Button Text="PLAY" FontColor="Yellow" Click="StartGame" />
+      <Button Text="OPTIONS" FontColor="Yellow" Click="Options" />
+    </Group>
+</MainTitle>

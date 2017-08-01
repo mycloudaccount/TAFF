@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: 3933d2af60db5439e982c426c4934288
+timeCreated: 1464328416
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"640\" height=\"480\" viewBox=\"0, 0, 640, 480\">\n  <g
+    id=\"Layer_1\">\n    <path d=\"M291,211 L349,211 L349,269 L291,269 L291,211 z\"
+    fill=\"#74B1C9\"/>\n    <g>\n      <path d=\"M320.5,190.5 C348.114,190.5 370.5,212.886
+    370.5,240.5 C370.5,268.114 348.114,290.5 320.5,290.5 C292.886,290.5 270.5,268.114
+    270.5,240.5 C270.5,212.886 292.886,190.5 320.5,190.5 z M328.828,215.5 L312.163,215.5
+    L312.18,232.154 L295.5,232.154 L295.5,248.846 L312.18,248.846 L312.163,265.5 L328.828,265.5
+    L328.812,248.846 L345.5,248.846 L345.5,232.154 L328.812,232.154 L328.828,215.5
+    z\" fill=\"#FFFFFF\"/>\n      <path d=\"M320.5,190.5 C348.114,190.5 370.5,212.886
+    370.5,240.5 C370.5,268.114 348.114,290.5 320.5,290.5 C292.886,290.5 270.5,268.114
+    270.5,240.5 C270.5,212.886 292.886,190.5 320.5,190.5 z M328.828,215.5 L312.163,215.5
+    L312.18,232.154 L295.5,232.154 L295.5,248.846 L312.18,248.846 L312.163,265.5 L328.828,265.5
+    L328.812,248.846 L345.5,248.846 L345.5,232.154 L328.812,232.154 L328.828,215.5
+    z\" fill-opacity=\"0\" stroke=\"#FFDD00\" stroke-width=\"2\"/>\n    </g>\n    <text
+    transform=\"matrix(1, 0, 0, 1, 320, 85)\">\n      <tspan x=\"-83.466\" y=\"9.5\"
+    font-family=\"Tabardo\" font-size=\"36\" fill=\"#FFFFFF\">LOADING</tspan>\n    </text>\n
+    \ </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

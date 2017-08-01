@@ -1,0 +1,5 @@
+Note
+
+• GUI Animator for Unity UI 1.0.0 does not require GSuiEditor script in Editor folder any more.
+
+• If you are old version users that just updated to GUI Animator for Unity UI 1.0.0, please delete old GSuiEditor script that found in Scripts/Editor folder.

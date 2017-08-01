@@ -1,0 +1,364 @@
+<CharacterSelection xmlns="MarkLight">
+
+	<Region Width="640px" Height="480px" BackgroundColor="#AAC2EDFF" Offset="0,0,0,0" >
+
+		<Region Id="MainContentRegion" Alignment="Top" Offset="0,20,0,0" Width="100%" Height="100%" BackgroundColor="#00C2EDFF">
+
+			<Group Orientation="Vertical" Alignment="Top" Margin="5,5,5,5" Spacing="5" Width="100%" Height="100%">
+
+				<Group ContentAlignment="Center" Orientation="Horizontal" Spacing="5" Width="100%" Height="400px">
+
+					<Region Width="100%" Height="100%" BackgroundColor="#00FFCC00">
+
+				       	<TabPanel Id="CharacterSelectionTabPanel" TabSelected="AnimateSelectedTab" Style="CharacterSelectionTabPanel" Alignment="TopRight" Offset="0,0,0,0" Width="100%" Height="0">
+
+				          	<!-- SISTER ONE -->
+				        	<Tab Id="SisterOneTab">
+
+				          		<TabHeader Id="SisterOneTabHeader" Style="CharacterSelectionTabHeader">
+				            		<Region>
+										<Image Width="100%" Height="100%" Alpha="0.3" BackgroundColor="#AA00FFFF" Offset="0,0,0,0"/>
+										<Image Id="SisterOneFaceOpened" Style="SisterOneFaceOpened" Scale="0.5"/>
+										<Image Id="SisterOneFaceClosed" Style="SisterOneFaceClosed" Scale="0.5"/>
+										<Label Style="CharacterLabel" Text="{SisterOneLabel}" Alignment="Bottom" Width="120px" Height="30px"/>
+										<Frame Style="FramePlasticTypeD" Width="103%" Height="103%"/>
+				            		</Region>
+				          		</TabHeader>
+
+								<Region Id="SisterOneTabRegion" Alignment="TopLeft" Margin="15,5,0,0" Width="525px" Height="395px" BackgroundColor="#00FFFFFF">
+
+									<Frame Style="GreenCheckersTypeHor" Width="95%" Height="95%" Alpha="0.60"/>
+
+									<!-- STATS -->
+									<Frame Style="StatsFrame" Alignment="TopLeft">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Stats" Alignment="Left"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Score:"/>
+												<Label Id="SisterOneScore" Style="InfoText" Text="loading..."/>
+											</Group>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Health:"/>
+												<Label Id="SisterOneHealth" Style="InfoText" Text="loading..." />
+											</Group>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Lives:"/>
+												<Label Id="SisterOneLives" Style="InfoText" Text="loading..."/>
+											</Group>
+										</Group>
+									</Frame>
+
+									<!-- DESCRIPTION -->
+									<Frame Alignment="Bottom" Style="DescriptionFrame">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Biography" Alignment="Left"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Region Width="100%" Height="50px" Margin="10,0,10,0">
+												<Label Width="100%" Height="100%" Style="InfoText" Text="{SisterOneDescription}"/>
+											</Region>
+										</Group>
+									</Frame>
+
+									<!-- BLUE GRID -->
+									<Frame Style="BlueGridBackground" Alignment="TopRight" Width="250px" Height="250px" Offset="0,45,10,0"/>
+									<Mask Alignment="TopRight" Width="225px" Height="225px" Offset="0,50,30,0" BackgroundColor="#22FFFFFF">
+										<Image Id="CloudTypeAImage00" Style="CloudTypeA" Offset="0,-100,0,0" Alignment="Top" Scale="0.5" Rotation="3" BackgroundColor="#FFF0F0F0"/>
+										<Image Id="CloudTypeALeftMarker00" Offset="-150,10,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeARightMarker00" Offset="0,10,-120,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeAImage10" Style="CloudTypeA" Offset="0,-100,0,0" Alignment="Top" Scale="0.65" Rotation="-3"/>
+										<Image Id="CloudTypeALeftMarker10" Offset="-150,20,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeARightMarker10" Offset="0,20,-150,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="SisterOnePlatformImage" Style="Platform2d" Offset="0,120,0,0" Alignment="Top" Scale="1.0"/>
+										<Image Id="SisterOnePlatformMarker" Offset="0,200,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#00FF0000"/>
+									</Mask>
+									<Frame Style="BlueGridFrame" Alignment="TopRight" Width="225px" Height="225px" Offset="0,50,30,0"/>
+
+									<Frame Style="FramePlasticTypeB" Width="100%" Height="100%"/>
+
+									<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,-70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,-70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Bottom" Scale="0.9,0.9,1.0" Rotation="0,0,90" Offset="0,18,0,0"/>
+
+							    	<Region Width="80%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+										<Frame Style="FrameBackgroundTypeA" Width="55%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+										<Label Style="PageHeader" Text="{SisterOneTitle}" Alignment="Center" Margin="0,6,0,0"/>
+										<Frame Style="FramePlasticTypeA" Width="60%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+									</Region>
+
+									<!-- LEVELS -->
+									<Frame Style="LevelsFrame" Alignment="BottomLeft">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Levels Played" Alignment="Left"/>
+												<Label Style="InfoHeader" Text="Lasted" Alignment="Right" Offset="0,0,-34,0"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Panel Style="YellowBar" Width="100%" Height="80px" HasInertia="true" CanScrollHorizontally="false" CanScrollVertically="true" Margin="5,0,0,0">
+												<Group Alignment="TopLeft" Orientation="Vertical" Width="100%" Height="250px" BackgroundColor="#55FFAAAA">
+													<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Height="15px" Margin="5,0,10,0" Alignment="Left">
+														<Label Style="InfoText" Text="Level One" Alignment="Left"/>
+														<Label Style="InfoText" Text="106"/>
+													</Group>
+													<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Height="15px" Margin="5,0,10,0" Alignment="Left">
+														<Label Style="InfoText" Text="Level TWO" Alignment="Left"/>
+														<Label Style="InfoText" Text="115"/>
+													</Group>
+													<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Height="15px" Margin="5,0,10,0" Alignment="Left">
+														<Label Style="InfoText" Text="Level THREE" Alignment="Left"/>
+														<Label Style="InfoText" Text="26"/>
+													</Group>
+													<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Height="15px" Margin="5,0,10,0" Alignment="Left">
+														<Label Style="InfoText" Text="Level FOUR" Alignment="Left"/>
+														<Label Style="InfoText" Text="32"/>
+													</Group>
+													<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Height="15px" Margin="5,0,10,0" Alignment="Left">
+														<Label Style="InfoText" Text="Level FIVE" Alignment="Left"/>
+														<Label Style="InfoText" Text="87"/>
+													</Group>
+												</Group>
+											</Panel>
+										</Group>
+									</Frame>
+
+								</Region>
+
+				        	</Tab>
+
+				          	<!-- SISTER TWO -->
+				        	<Tab Id="SisterTwoTab">
+
+				          		<TabHeader Id="SisterTwoTabHeader" Style="CharacterSelectionTabHeader">
+				            		<Region>
+										<Image Width="100%" Height="100%" Alpha="0.3" BackgroundColor="#AA00FFFF" Offset="0,0,0,0"/>
+										<Image Id="SisterTwoFaceOpened" Style="SisterTwoFaceOpened" Scale="0.5" Offset="0,0,0,10"/>
+										<Image Id="SisterTwoFaceClosed" Style="SisterTwoFaceClosed" Scale="0.5" Offset="0,0,0,10"/>
+										<Label Style="CharacterLabel" Text="{SisterTwoLabel}" Alignment="Bottom" Width="120px" Height="30px"/>
+										<Frame Style="FramePlasticTypeD" Width="103%" Height="103%"/>
+				            		</Region>
+				          		</TabHeader>
+
+								<Region Id="SisterTwoTabRegion" Alignment="TopLeft" Margin="15,5,0,0" Width="525px" Height="395px" BackgroundColor="#00FFFFFF">
+
+									<Frame Style="GreenCheckersTypeHor" Width="95%" Height="95%" Alpha="0.60"/>
+
+									<!-- STATS -->
+									<Frame Style="StatsFrame" Alignment="TopLeft">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Stats" Alignment="Left"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Score:"/>
+												<Label Id="SisterTwoScore" Style="InfoText" Text="loading..."/>
+											</Group>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Health:"/>
+												<Label Id="SisterTwoHealth" Style="InfoText" Text="loading..." />
+											</Group>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Lives:"/>
+												<Label Id="SisterTwoLives" Style="InfoText" Text="loading..."/>
+											</Group>
+										</Group>
+									</Frame>
+
+									<!-- DESCRIPTION -->
+									<Frame Alignment="Bottom" Style="DescriptionFrame">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Biography" Alignment="Left"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Region Width="100%" Height="50px" Margin="10,0,10,0">
+												<Label Width="100%" Height="100%" Style="InfoText" Text="{SisterTwoDescription}"/>
+											</Region>
+										</Group>
+									</Frame>
+
+									<!-- BLUE GRID -->
+									<Frame Style="BlueGridBackground" Alignment="TopRight" Width="250px" Height="250px" Offset="0,45,10,0"/>
+									<Mask Alignment="TopRight" Width="225px" Height="225px" Offset="0,50,30,0" BackgroundColor="#22FFFFFF">
+										<Image Id="CloudTypeAImage01" Style="CloudTypeA" Offset="0,-100,0,0" Alignment="Top" Scale="0.5" Rotation="3" BackgroundColor="#FFF0F0F0"/>
+										<Image Id="CloudTypeALeftMarker01" Offset="-150,10,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeARightMarker01" Offset="0,10,-120,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeAImage11" Style="CloudTypeA" Offset="0,-100,0,0" Alignment="Top" Scale="0.65" Rotation="-3"/>
+										<Image Id="CloudTypeALeftMarker11" Offset="-150,20,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeARightMarker11" Offset="0,20,-150,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="SisterOnePlatformImage" Style="Platform2d" Offset="0,120,0,0" Alignment="Top" Scale="1.0"/>
+										<Image Id="SisterOnePlatformMarker" Offset="0,200,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#00FF0000"/>
+									</Mask>
+									<Frame Style="BlueGridFrame" Alignment="TopRight" Width="225px" Height="225px" Offset="0,50,30,0"/>
+
+									<Frame Style="FramePlasticTypeB" Width="100%" Height="100%"/>
+
+									<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,-70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,-70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Bottom" Scale="0.9,0.9,1.0" Rotation="0,0,90" Offset="0,18,0,0"/>
+
+							    	<Region Width="80%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+										<Frame Style="FrameBackgroundTypeA" Width="55%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+										<Label Style="PageHeader" Text="{SisterTwoTitle}" Alignment="Center" Margin="0,6,0,0"/>
+										<Frame Style="FramePlasticTypeA" Width="60%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+									</Region>
+
+									<!-- LEVELS -->
+									<Frame Style="LevelsFrame" Alignment="BottomLeft">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Levels Played" Alignment="Left"/>
+												<Label Style="InfoHeader" Text="Lasted" Alignment="Right" Offset="0,0,-34,0"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Panel Style="YellowBar" Width="100%" Height="80px" HasInertia="true" CanScrollHorizontally="false" CanScrollVertically="true" Margin="5,0,0,0">
+												<Group Alignment="TopLeft" Orientation="Vertical" Width="100%" Height="250px" BackgroundColor="#55FFAAAA">
+													<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Height="15px" Margin="5,0,10,0" Alignment="Left">
+														<Label Style="InfoText" Text="Level One" Alignment="Left"/>
+														<Label Style="InfoText" Text="16"/>
+													</Group>
+												</Group>
+											</Panel>
+										</Group>
+									</Frame>
+
+								</Region>
+
+				        	</Tab>
+
+				        	<Tab Id="SisterThreeTab">
+
+				          		<TabHeader Id="SisterThreeTabHeader" Style="CharacterSelectionTabHeader">
+				            		<Region>
+										<Image Width="100%" Height="100%" Alpha="0.3" BackgroundColor="#AA00FFFF" Offset="0,0,0,0"/>
+										<Image Id="SisterThreeFaceOpened" Style="SisterThreeFaceOpened" Scale="0.5" Offset="0,0,0,6"/>
+										<Image Id="SisterThreeFaceClosed" Style="SisterThreeFaceClosed" Scale="0.5" Offset="0,0,0,6"/>
+										<Label Style="CharacterLabel" Text="{SisterThreeLabel}" Alignment="Bottom" Width="120px" Height="30px"/>
+										<Frame Style="FramePlasticTypeD" Width="103%" Height="103%"/>
+				            		</Region>
+				          		</TabHeader>
+				          	
+								<Region Id="SisterThreeTabRegion" Alignment="TopLeft" Margin="15,5,0,0" Width="525px" Height="395px" BackgroundColor="#00FFFFFF">
+
+									<Frame Style="GreenCheckersTypeHor" Width="95%" Height="95%" Alpha="0.60"/>
+
+									<!-- STATS -->
+									<Frame Style="StatsFrame" Alignment="TopLeft">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Stats" Alignment="Left"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Score:"/>
+												<Label Id="SisterThreeScore" Style="InfoText" Text="loading..."/>
+											</Group>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Health:"/>
+												<Label Id="SisterThreeHealth" Style="InfoText" Text="loading..." />
+											</Group>
+											<Group Orientation="Horizontal" Width="100%" Height="15px" Margin="10,0,10,0" Alignment="Left">
+												<Label Style="InfoText" Text="Lives:"/>
+												<Label Id="SisterThreeLives" Style="InfoText" Text="loading..."/>
+											</Group>
+										</Group>
+									</Frame>
+
+									<!-- DESCRIPTION -->
+									<Frame Alignment="Bottom" Style="DescriptionFrame">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Biography" Alignment="Left"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Region Width="100%" Height="50px" Margin="10,0,10,0">
+												<Label Width="100%" Height="100%" Style="InfoText" Text="{SisterThreeDescription}"/>
+											</Region>
+										</Group>
+									</Frame>
+
+									<!-- BLUE GRID -->
+									<Frame Style="BlueGridBackground" Alignment="TopRight" Width="250px" Height="250px" Offset="0,45,10,0"/>
+									<Mask Alignment="TopRight" Width="225px" Height="225px" Offset="0,50,30,0" BackgroundColor="#22FFFFFF">
+										<Image Id="CloudTypeAImage02" Style="CloudTypeA" Offset="0,-100,0,0" Alignment="Top" Scale="0.5" Rotation="3" BackgroundColor="#FFF0F0F0"/>
+										<Image Id="CloudTypeALeftMarker02" Offset="-150,10,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeARightMarker02" Offset="0,10,-120,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeAImage12" Style="CloudTypeA" Offset="0,-100,0,0" Alignment="Top" Scale="0.65" Rotation="-3"/>
+										<Image Id="CloudTypeALeftMarker12" Offset="-150,20,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="CloudTypeARightMarker12" Offset="0,20,-150,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#FFFF0000"/>
+										<Image Id="SisterOnePlatformImage" Style="Platform2d" Offset="0,120,0,0" Alignment="Top" Scale="1.0"/>
+										<Image Id="SisterOnePlatformMarker" Offset="0,200,0,0" Alignment="Top" Width="25px" Height="25px" BackgroundColor="#00FF0000"/>
+									</Mask>
+									<Frame Style="BlueGridFrame" Alignment="TopRight" Width="225px" Height="225px" Offset="0,50,30,0"/>
+
+									<Frame Style="FramePlasticTypeB" Width="100%" Height="100%"/>
+
+									<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,-70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,-70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,70,0,0"/>
+									<Image Style="FrameFastenerTypeB" Alignment="Bottom" Scale="0.9,0.9,1.0" Rotation="0,0,90" Offset="0,18,0,0"/>
+
+							    	<Region Width="80%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+										<Frame Style="FrameBackgroundTypeA" Width="55%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+										<Label Style="PageHeader" Text="{SisterThreeTitle}" Alignment="Center" Margin="0,6,0,0"/>
+										<Frame Style="FramePlasticTypeA" Width="60%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+									</Region>
+
+									<!-- LEVELS -->
+									<Frame Style="LevelsFrame" Alignment="BottomLeft">
+										<Group Width="100%" Alignment="Left" Orientation="Vertical" Spacing="5" ContentAlignment="Right" Height="100%">
+											<Region Width="100%" Height="25px" Margin="5,0,5,0">
+												<Label Style="InfoHeader" Text="Levels Played" Alignment="Left"/>
+												<Label Style="InfoHeader" Text="Lasted" Alignment="Right" Offset="0,0,-34,0"/>
+												<Region Width="100%" Height="3px" Alignment="Bottom" BackgroundColor="#FFFFFF"/>
+											</Region>
+											<Panel Style="YellowBar" Width="100%" Height="80px" HasInertia="true" CanScrollHorizontally="false" CanScrollVertically="true" Margin="5,0,0,0">
+												<Group Alignment="TopLeft" Orientation="Vertical" Width="100%" Height="250px" BackgroundColor="#55FFAAAA">
+													<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Height="15px" Margin="5,0,10,0" Alignment="Left">
+														<Label Style="InfoText" Text="Level One" Alignment="Left"/>
+														<Label Style="InfoText" Text="24"/>
+													</Group>
+												</Group>
+											</Panel>
+										</Group>
+									</Frame>
+								</Region>
+
+				        	</Tab>
+
+				      	</TabPanel>
+
+					</Region>
+
+				</Group>
+
+
+				<Group Offset="55,0,0,0" Orientation="Horizontal" Spacing="5" Width="305px" Height="40px" BackgroundColor="#00000000">
+
+					<Button Style="ExitSaveButton" Text="EXIT" Click="Exit"/>
+
+					<Button Style="ExitSaveButton" Text="SAVE" Click="Save"/>
+
+				</Group>
+
+
+			</Group>
+
+		</Region>
+
+		<Image Id="MainContentCoverImage" Alignment="Top" Offset="0,0,0,0" Width="100%" Height="100%" BackgroundColor="#AAFFFFFF"/>
+
+		<SaveGameStateDialog Id="SaveGameStateDialogView" IsActive="true"/>
+
+	</Region>
+
+</CharacterSelection>

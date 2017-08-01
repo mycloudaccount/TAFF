@@ -1,0 +1,238 @@
+<Theme Name="TAToon" BaseDirectory="Assets/MarkLight/Themes/TAToon/">
+  <Label Style="InfoHeader" Font="Fonts/AmericanCaptain.ttf" FontSize="18" Scale="1.0,0.9,1.0" FontColor="#02509F" HorizontalOverflow="Wrap" ShadowColor="#FFFFFF" ShadowDistance="2,-2"/>
+  <Label Style="InfoText" Font="Fonts/AmericanCaptain.ttf" FontSize="15" Scale="1.0,0.9,1.0" FontColor="#404040" HorizontalOverflow="Wrap" ShadowColor="#FFFFFF" ShadowDistance="2,-2"/>
+  <Label Style="OptionsLabel" Font="Fonts/Tabardo-font-FFP.otf" FontSize="25" FontColor="Purple" ShadowColor="#000000" ShadowDistance="2,-2" AdjustToText="WidthAndHeight"/>
+  <Label Style="WelcomeTitle" Font="Fonts/Tabardo-font-FFP.otf" FontSize="45" FontColor="Purple" ShadowColor="#000000" ShadowDistance="2,-2" AdjustToText="WidthAndHeight"/>
+  <Label Style="WelcomeSubTitle" Font="Fonts/Tabardo-font-FFP.otf" FontSize="25" FontColor="Pink" ShadowColor="#000000" ShadowDistance="2,-2" AdjustToText="WidthAndHeight"/>
+  <Label Style="AfricanCountyName" Font="Fonts/AmericanCaptain.ttf" FontSize="25" FontColor="White" ShadowColor="#000000" ShadowDistance="2,-2" AdjustToText="WidthAndHeight"/>
+  <Label Style="TitleTypeA" Font="Fonts/Tabardo-font-FFP.otf" FontSize="25" FontColor="Purple" ShadowColor="#000000" ShadowDistance="2,-2" AdjustToText="WidthAndHeight"/>
+  <Label Style="TitleTypeB" Font="Fonts/AmericanCaptain.ttf" FontSize="25" Scale="1.0,0.9,1.0" FontColor="#404040" OutlineColor="#FFEEEEEE" OutlineDistance="1,1" AdjustToText="WidthAndHeight"/>
+  <Label Style="TitleTypeC" Font="Fonts/AmericanCaptain.ttf" FontSize="25" Scale="1.0,0.9,1.0" FontColor="#404040" OutlineColor="#FF333333" OutlineDistance="1,1" AdjustToText="WidthAndHeight"/>
+  <Label Style="PageHeader" Font="Fonts/Tabardo-font-FFP.otf" FontSize="25" Scale="1.0,0.9,1.0" FontColor="#DD0000" OutlineColor="#FF000000" OutlineDistance="1,1" AdjustToText="WidthAndHeight"/>
+  <Label Style="Level" Width="80px" Height="60px" Font="Fonts/CarterOne.ttf" FontSize="30" FontColor="White" ShadowColor="#333333" ShadowDistance="2,-2" OutlineColor="#333333" OutlineDistance="2,-1" TextAlignment="Center" />
+  <Label Style="TitleRibbon" Font="Fonts/CarterOne.ttf" FontSize="36" FontColor="White" Height="60px" ShadowColor="#368f16" ShadowDistance="2,-2" OutlineColor="#368f16" OutlineDistance="2,-1" />
+  <Label Style="ShowcaseHeader" Font="Fonts/CarterOne.ttf" FontSize="30" FontColor="White" Height="60px" ShadowColor="#000000" ShadowDistance="2,-2" OutlineColor="#000000" OutlineDistance="2,-1" />
+  <Label Style="ShowcaseDescription" Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontSize="22" FontColor="#000000" />
+  <Label Style="ShowcaseListLabel" Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontSize="18" FontColor="White" />
+  <Label Style="ShowcaseGroupLabel" Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontSize="18" FontColor="White" />
+   
+  <Button Style="DialogGreenButton" BackgroundImage="Sprites/ButtonSquareGreen.png" Disabled-BackgroundImage="Sprites/ButtonSquareGray.psd" Pressed-BackgroundImage="Sprites/ButtonSquareDarkGreen.png" Highlighted-BackgroundImage="Sprites/ButtonSquareLightGreen.png" BackgroundImageType="Sliced"
+          TextAlignment="Center" TextOffset="0px,2px,0px,0px" Font="Fonts/Tabardo-font-FFP.otf" FontSize="18" FontColor="#FFF8A1" Width="90px" Height="42px" ShadowColor="#000000" ShadowDistance="4,-4" OutlineColor="#000000" OutlineDistance="0,0"
+          Disabled-FontColor="Gray70" Disabled-ShadowColor="Gray40" Disabled-OutlineColor="Gray40"/>
+  <Button Style="ExitSaveButton" BackgroundImage="Sprites/ButtonC.png" Disabled-BackgroundImage="Sprites/ButtonDisabled.psd" Pressed-BackgroundImage="Sprites/ButtonC.png" Highlighted-BackgroundImage="Sprites/ButtonD.png" BackgroundImageType="Sliced"
+          TextAlignment="Center" TextOffset="0px,2px,0px,0px" Font="Fonts/Tabardo-font-FFP.otf" FontSize="24" FontColor="#FFF8A1" Highlighted-FontColor="#FFF8FA" Height="55px" Width="150px" ShadowColor="#000000" ShadowDistance="4,-4" OutlineColor="#000000" OutlineDistance="0,0"
+          Disabled-FontColor="Gray70" Disabled-ShadowColor="Gray40" Disabled-OutlineColor="Gray40"/>
+  <Button Style="DialogButton" BackgroundImage="Sprites/ButtonC.png" Disabled-BackgroundImage="Sprites/ButtonDisabled.psd" Pressed-BackgroundImage="Sprites/ButtonC.png" Highlighted-BackgroundImage="Sprites/ButtonD.png" BackgroundImageType="Sliced"
+          TextAlignment="Center" TextOffset="0px,2px,0px,0px" Font="Fonts/Tabardo-font-FFP.otf" FontSize="18" FontColor="#FFF8A1" Width="90px" Height="42px" ShadowColor="#000000" ShadowDistance="4,-4" OutlineColor="#000000" OutlineDistance="0,0"
+          Disabled-FontColor="Gray70" Disabled-ShadowColor="Gray40" Disabled-OutlineColor="Gray40"/>
+  <Button Style="GoButton" BackgroundImage="Sprites/ButtonSquareGreen.png" Disabled-BackgroundImage="Sprites/ButtonSquareGray.png" Pressed-BackgroundImage="Sprites/ButtonSquareDarkGreen.png" Highlighted-BackgroundImage="Sprites/ButtonSquareLightGreen.png" BackgroundImageType="Sliced"
+          TextAlignment="Center" TextOffset="0px,0px,0px,0px" Font="Fonts/Tabardo-font-FFP.otf" FontSize="20" FontColor="#FFFFFF" Width="60px" Height="60px" ShadowColor="#000000" ShadowDistance="4,-4" OutlineColor="#000000" OutlineDistance="0,0"
+          Disabled-FontColor="#333333" Disabled-ShadowColor="Gray40" Disabled-OutlineColor="Gray40"/>
+  <Button Style="Options" BackgroundImage="Sprites/Options.png" BackgroundColor="#ffd700" Pressed-BackgroundColor="#fff7cc" Highlighted-BackgroundColor="#ffe34c" Width="20" Height="20" />
+  <Button Style="Info" BackgroundImage="Sprites/Info.png" BackgroundColor="#ffd700" Pressed-BackgroundColor="#fff7cc" Highlighted-BackgroundColor="#ffe34c" Width="9" Height="29" />
+  <Button Style="ArrowLeft" BackgroundImage="Sprites/ArrowLeft.png" BackgroundColor="#ffd700" Pressed-BackgroundColor="#fff7cc" Highlighted-BackgroundColor="#ffe34c" Width="24" Height="24" />
+  <Button Style="ArrowRight" BackgroundImage="Sprites/ArrowRight.png" Width="30" Height="30" />
+  <Button Style="ColorPaletteButtonTypeA" BackgroundImage="Sprites/Button_05_Gray.psd" Width="76%" Height="76%" />
+  <Button Style="BasicButtonTypeA" BackgroundImage="Sprites/ButtonC.png" Disabled-BackgroundImage="Sprites/ButtonDisabled.psd" Pressed-BackgroundImage="Sprites/ButtonC.png" Highlighted-BackgroundImage="Sprites/ButtonD.png" BackgroundImageType="Sliced"
+          TextAlignment="Center" TextOffset="0px,2px,0px,0px" Font="Fonts/Tabardo-font-FFP.otf" FontSize="22" FontColor="#FFF8A1" Width="150px" Height="50px" ShadowColor="#000000" ShadowDistance="4,-4" OutlineColor="#000000" OutlineDistance="0,0"
+          Disabled-FontColor="Gray70" Disabled-ShadowColor="Gray40" Disabled-OutlineColor="Gray40"/>
+  <Button Style="Round" BackgroundImage="Sprites/RoundButton.psd" Pressed-BackgroundImage="Sprites/RoundButtonPressed.psd" Highlighted-BackgroundImage="Sprites/RoundButtonHighlighted.psd" Width="69" Height="72" />
+  <Button Style="CheckBox" BackgroundImage="Sprites/CheckButton.psd" Pressed-BackgroundImage="Sprites/CheckButtonPressed.psd" Highlighted-BackgroundImage="Sprites/CheckButton.psd" IsToggleButton="True" Width="52" Height="52" />
+
+  <CheckBox CheckBoxImage="Sprites/CheckButton.psd" Checked-CheckBoxImage="Sprites/CheckButtonPressed.psd" CheckBoxWidth="26" CheckBoxHeight="26" Height="26" 
+            CheckBoxColor="#ffffff" Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontSize="22" FontStyle="Normal" FontColor="#000000" Spacing="10px"
+            Disabled-FontStyle="Italic" Disabled-FontColor="Gray80" />
+
+  <RadioButton RadioButtonImage="Sprites/RadioButton.psd" Checked-RadioButtonImage="Sprites/RadioButtonPressed.psd" RadioButtonWidth="26" RadioButtonHeight="26" Height="26"
+               RadioButtonColor="#ffffff" Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontSize="22" FontStyle="Normal" FontColor="#000000" Spacing="10px"
+               Disabled-FontStyle="Italic" Disabled-FontColor="Gray80" />
+
+  <Image Style="TitleAfricans" Type="Simple" Sprite="Sprites/TitleAfricans.png" Width="255" Height="95"/>
+  <Image Style="TitleFreedom" Type="Simple" Sprite="Sprites/TitleFreedom.png" Width="159" Height="37"/>
+  <Image Style="Title3For" Type="Simple" Sprite="Sprites/Title3For.png" Width="161" Height="105"/>
+
+  <Image Style="MenuBackground" Sprite="Sprites/MenuBackground.psd" />
+  <Image Style="BackArrow" Sprite="Sprites/BackArrow.psd" Width="69" Height="72" />
+  <Image Style="MenuIcon" Sprite="Sprites/MenuIcon.psd" Width="69" Height="72" />
+  <Image Style="TitleRibbon" Sprite="Sprites/Ribbon.psd" Width="424" Height="107" />
+  <Image Style="ShowcaseButtonContent" Sprite="Sprites/Lock.psd" Width="33" Height="41" Offset="0,-10,-10,0" Alignment="TopRight" />
+  <Image Style="ShowcaseImage" Sprite="Sprites/Lock.psd" Width="33" Height="41" />
+
+  <Frame Style="BronzeButton" BackgroundImage="Sprites/BronzeButton.png" Width="58" Height="58"/>
+  <Frame Style="GreenCheckersTypeHor" BackgroundImage="Sprites/GreenCheckersHor.png" BackgroundImageType="Sliced" />
+  <Frame Style="GreenCheckersTypeVert" BackgroundImage="Sprites/GreenCheckersTypeA.png" BackgroundImageType="Sliced" />
+  <Frame Style="FrameCornerTypeA" BackgroundImage="Sprites/FrameCornerTypeA.png" BackgroundImageType="Simple"/>
+  <Frame Style="FrameBackgroundTypeA" BackgroundImage="Sprites/FrameBackgroundTypeA.png" BackgroundImageType="Sliced"/>
+  <Frame Style="FramePlasticTypeA" BackgroundImage="Sprites/FramePlasticTypeA.png" BackgroundImageType="Sliced" />
+  <Frame Style="FramePlasticTypeB" BackgroundImage="Sprites/FramePlasticTypeB.png" BackgroundImageType="Sliced" />
+  <Frame Style="FramePlasticTypeC" BackgroundImage="Sprites/FramePlasticTypeC.png" BackgroundImageType="Sliced" />
+  <Frame Style="FramePlasticTypeD" BackgroundImage="Sprites/FramePlasticTypeD.png" BackgroundImageType="Sliced" />
+  <Frame Style="BorderA" BackgroundImage="Sprites/WindowBorderB.png" BackgroundImageType="Sliced" />
+  <Frame Style="WindowA" BackgroundImage="Sprites/FrameA.png" BackgroundImageType="Simple" />
+  <Frame Style="WindowVertical" BackgroundImage="Sprites/Layer 1.png" BackgroundImageType="Simple" />
+  <Frame Style="Window" BackgroundImage="Sprites/FrameA.png" BackgroundImageType="Sliced" />
+  <Frame Style="ShowcasePanel" BackgroundImage="Sprites/Frame.psd" BackgroundImageType="Sliced" BackgroundColor="#ffffff" Alignment="Top" />
+  <Frame Style="ShowcaseGroup" BackgroundColor="Gray70" ContentMargin="5px" />
+
+  <Region Style="WindowA" BackgroundImage="Sprites/FrameA.png" BackgroundImageType="Sliced" />
+  <Region Style="Window" BackgroundImage="Sprites/FrameA.png" BackgroundImageType="Sliced" />
+  <Region Style="DefaultBackgroundRegion" BackgroundImage="Sprites/MenuBackground.psd" BackgroundColor="#ffffff" />
+  <Region Style="ShowcaseListRegion" Margin="3px" BackgroundColor="Gray70" />
+
+  <HyperLink FontColor="#0077ff" Highlighted-FontColor="#0037ff" Pressed-FontColor="#7207ff" Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontSize="22" Width="120" Height="40" />
+
+  <InputField BackgroundImage="Sprites/InputFieldBackground.psd" BackgroundImageType="Sliced" Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontSize="18"/>
+
+  <Panel Style="YellowBar" VerticalScrollbarBreadth="15" HorizontalScrollbarBreadth="15"
+       VerticalScrollbarImage="Sprites/VerticalScrollbar.psd" VerticalScrollbarImageType="Sliced"
+       HorizontalScrollbarImage="Sprites/HorizontalScrollbar.psd" HorizontalScrollbarImageType="Sliced"
+       VerticalScrollbarHandleImage="Sprites/VerticalScrollbarHandle.psd" VerticalScrollbarHandleImageType="Sliced"
+       HorizontalScrollbarHandleImage="Sprites/HorizontalScrollbarHandle.psd" HorizontalScrollbarHandleImageType="Sliced"
+         />
+
+  <Window TitleRegionWidth="424" TitleRegionHeight="107" TitleRegionImage="Sprites/Ribbon.psd" TitleRegionColor="#ffffff" TitleRegionImageType="Simple"
+      WindowImage="Sprites/Frame.psd" WindowImageType="Sliced" WindowColor="#ffffff" TitleRegionOffset="0,-50px,0,0"
+      TitleFont="Fonts/CarterOne.ttf"
+      TitleFontSize="36" TitleFontColor="White" TitleShadowColor="#368f16" TitleShadowDistance="2,-2" TitleOutlineColor="#368f16" TitleOutlineDistance="2,-1"
+      CloseButtonAlignment="TopRight"
+      CloseButtonColor="#ffffff"
+      CloseButtonImage="Sprites/CloseButton.psd"
+      CloseButtonImageType="Simple"
+      Highlighted--CloseButtonImage="Sprites/CloseButtonHighlighted.psd"
+      Pressed--CloseButtonImage="Sprites/CloseButtonPressed.psd"
+      Highlighted--CloseButtonColor="#ffffff" Pressed--CloseButtonColor="#ffffff"
+      CloseButtonOffset="0px,0px,0px,0" CloseButtonWidth="44" CloseButtonHeight="45"
+      TitleAlignment="Top" TitleOffset="0,18px,0,0" />
+
+  <List BackgroundImage="Sprites/ListBox.psd" BackgroundImageType="Sliced" BackgroundColor="#EEDDDDDD" ListMaskImage="Sprites/ListBoxMask.psd" ListMaskImageType="Sliced" ListMaskColor="#ffffff" />
+  <ListItem Breadth="40" TextMargin="25,0,0,0" TextAlignment="Left" BackgroundColor="White"
+            BackgroundImage="Sprites/Button_03_Gray.psd" BackgroundImageType="Simple" Selected-BackgroundColor="#dbd7e3" Pressed-BackgroundColor="#dbd7e3"
+            Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontStyle="Normal" FontSize="22" FontColor="#8f86a3"
+            Selected-FontColor="#000000" Pressed-FontColor="White" />
+  <ListItem Style="ListItemColorPicker" Breadth="40" TextMargin="25,0,0,0" TextAlignment="Left" BackgroundColor="White"
+            BackgroundImage="Sprites/Button_03_Gray.psd" Selected-BackgroundColor="#FFFFFF" Pressed-BackgroundColor="#FFFFFF"
+            ShadowColor="Black" ShadowDistance="-5,-5"/>
+
+  <TabPanel TabContentColor="#ffffff" TabContentImage="Sprites/TabContent.psd" TabContentImageType="Sliced" TabListContentMargin="0" 
+            TabListColor="Clear" TabListMaskImage="" TabListMaskShowGraphic="False" TabListSpacing="-5" TabListOffset="10,2,0,0"
+            HorizontalTopLeft-TabListOffset="10,2,0,0" HorizontalTop-TabListOffset="0,2,0,0" HorizontalTopRight-TabListOffset="0,2,10,0" />  
+  <TabHeader Breadth="40" TextPadding="20,10,20,10" TextAlignment="Center" 
+             BackgroundImage="Sprites/Tab.psd" BackgroundImageType="Sliced" Selected-BackgroundImage="Sprites/TabPressed.psd" Pressed-BackgroundImage="Sprites/TabPressed.psd"
+             BackgroundColor="White" Selected-BackgroundColor="White" Pressed-BackgroundColor="White"
+             Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontStyle="Normal" FontSize="22" FontColor="#000000" />
+
+  <ComboBox Height="40" Width="300" ButtonFont="Fonts/AveriaSansLibre-LightItalic.ttf" ButtonFontSize="22" 
+          ButtonFontColor="#000000" Pressed--ButtonFontColor="#000000" Highlighted--ButtonFontColor="#000000"
+          ButtonShadowColor="Clear" ButtonOutlineColor="Clear"
+          ButtonImage="Sprites/ComboBoxButton.psd" ButtonImageType="Sliced" Pressed--ButtonImage="Sprites/ComboBoxButtonPressed.psd"
+          Highlighted--ButtonImage="Sprites/ComboBoxButton.psd"
+          ButtonColor="#ffffff" Highlighted--ButtonColor="#dbd7e3" Pressed--ButtonColor="#dbd7e3"
+          ButtonTextAlignment="Left" ButtonTextMargin="25,0,0,0" />
+  <ComboBoxItem Breadth="40" TextMargin="25,0,0,0" TextAlignment="Left" BackgroundColor="White"
+            Selected-BackgroundColor="#dbd7e3" Highlighted-BackgroundColor="#dbd7e3" Pressed-BackgroundColor="#dbd7e3"
+            Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontStyle="Normal" FontSize="22" FontColor="#8f86a3"
+            Selected-FontColor="#000000" Pressed-FontColor="#000000" />
+  
+  <TabPanel Style="Menu" TabContentColor="#9F9B9B" TabContentImage="Sprites/TabContent.psd" TabContentImageType="Sliced" TabListContentMargin="0"
+          TabListColor="Clear" TabListMaskImage="" TabListMaskShowGraphic="False" TabListSpacing="-5" TabListOffset="10,2,0,0"
+          HorizontalTopLeft-TabListOffset="10,2,0,0" HorizontalTop-TabListOffset="0,2,0,0" HorizontalTopRight-TabListOffset="0,2,10,0" />
+  <TabHeader Style="Menu" Breadth="40" TextPadding="20,10,20,10" TextAlignment="Center"
+             BackgroundImage="Sprites/Tab.psd" BackgroundImageType="Sliced" Selected-BackgroundImage="Sprites/TabPressed.psd" Pressed-BackgroundImage="Sprites/TabPressed.psd"
+             BackgroundColor="White" Selected-BackgroundColor="#9F9B9B" Pressed-BackgroundColor="#9F9B9B"
+             Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontStyle="Normal" FontSize="22" FontColor="#000000" />
+  <TabPanel Style="SubMenu" TabContentColor="#D3CACA" TabContentImage="Sprites/TabContent.psd" TabContentImageType="Sliced" TabListContentMargin="0"
+          TabListColor="Clear" TabListMaskImage="" TabListMaskShowGraphic="False" TabListSpacing="-5" TabListOffset="10,2,0,0"
+          HorizontalTopLeft-TabListOffset="10,2,0,0" HorizontalTop-TabListOffset="0,2,0,0" HorizontalTopRight-TabListOffset="0,2,10,0" />
+  <TabHeader Style="SubMenu" Breadth="40" TextPadding="20,10,20,10" TextAlignment="Center"
+             BackgroundImage="Sprites/Tab.psd" BackgroundImageType="Sliced" Selected-BackgroundImage="Sprites/TabPressed.psd" Pressed-BackgroundImage="Sprites/TabPressed.psd"
+             BackgroundColor="White" Selected-BackgroundColor="#D3CACA" Pressed-BackgroundColor="#D3CACA"
+             Font="Fonts/AveriaSansLibre-LightItalic.ttf" FontStyle="Normal" FontSize="22" FontColor="#000000" />
+
+  <!--Tab CustomizePlayer_Style-->
+  <TabPanel Style="CustomizePlayer_Style" TabContentColor="#000000" TabContentImage="" TabContentImageType="Sliced" TabListOrientation="Vertical" TabListContentMargin="0"
+          TabListColor="Clear" TabListMaskImage="" TabListMaskShowGraphic="False" TabListSpacing="5" TabListOffset="-6,4,0,0"
+          HorizontalTopLeft-TabListOffset="10,2,0,0" HorizontalTop-TabListOffset="0,2,0,0" HorizontalTopRight-TabListOffset="0,2,10,0" />
+  <TabHeader Style="CustomizePlayer_Style" Width="50" Height="50" AdjustToText="None"
+             BackgroundImage="Sprites/TabHeaderNormal.png" BackgroundImageType="Simple" Selected-BackgroundImage="Sprites/TabHeaderSelected.png" Pressed-BackgroundImage="Sprites/TabHeaderNormal.png"
+             BackgroundColor="#ddBBBB55" Selected-BackgroundColor="#ddFFFFCC" Pressed-BackgroundColor="#dd777755"/>
+  <Image Style="ClothesIconTypeA" Type="Simple" Sprite="Sprites/ClothesIconTypeA.png" Width="100" Height="100"/>
+  <Image Style="HeadBandIconTypeA" Type="Simple" Sprite="Sprites/HeadBandIconTypeA.png" Width="100" Height="100"/>
+  <Image Style="HatIconTypeA" Type="Simple" Sprite="Sprites/HatIconTypeA.png" Width="100" Height="100"/>
+  <Image Style="SlotTypeA" Type="Simple" Sprite="Sprites/SlotTypeA.png" Width="100" Height="100"/>
+  <Image Style="SlotBorderTypeA" Type="Simple" Sprite="Sprites/SlotBorderTypeA.png" Width="100" Height="100"/>
+  <Image Style="CogTypeA" Type="Simple" Sprite="Sprites/CogTypeA.png" Width="100" Height="100"/>
+  <Image Style="FrameFastenerTypeA" Type="Simple" Sprite="Sprites/FrameFastenerTypeA.png" Width="39" Height="144" Scale="0.35,0.35,1.0"/>
+  <Image Style="FrameFastenerTypeB" Type="Simple" Sprite="Sprites/FrameFastenerTypeB.png" Width="26" Height="50" Scale="1.0,1.0,1.0"/>
+  <Image Style="SunRaysTypeA" Sprite="Sprites/Texture_Light_02.tga" Width="100" Height="100" Alpha="0.3" Scale="1.0,1.0,1.0"/>
+  <Image Style="ScrewTypeA" Type="Simple" Sprite="Sprites/ScrewTypeA.png" Width="9" Height="7"/>
+  <Image Style="BarTypeA" Type="Simple" BackgroundColor="#404040"/>
+  <Image Style="BarTypeB" Type="Simple" BackgroundColor="#545454"/>
+  <Image Style="BarTypeC" Type="Simple" BackgroundColor="#767676"/>
+  <Image Style="ColorIndicator" Type="Simple" BackgroundColor="#FFFFFF"/>
+  <Image Style="ListItemMarkerTypeA" Type="Simple" BackgroundColor="#DD4040" BackgroundImage="Sprites/Button_03_Gray.psd"/>
+
+  <!-- Game Settings Styles -->
+  <Button Style="MuteButton" ToggleValue="false" BackgroundImage="Sprites/Mute.png" BackgroundColor="#ffdc73" Pressed-BackgroundColor="#a67c00" Highlighted-BackgroundColor="#fefeff" Width="50" Height="50"/>
+
+  <Image Style="VolumeHigh" Type="Simple" Sprite="Sprites/VolumeHigh.png" Width="42" Height="35"/>
+  <Image Style="VolumeLow" Type="Simple" Sprite="Sprites/VolumeLow.png" Width="29" Height="27"/>
+  <Image Style="Sound" Type="Simple" Sprite="Sprites/Sound.png" Width="37" Height="55"/>
+  <Image Style="Display" Type="Simple" Sprite="Sprites/Display.png" Width="40" Height="38"/>
+
+  <Slider
+  	SliderBackgroundImage="Sprites/SliderBackground.png"
+  	SliderFillImage="Sprites/SliderFill.png"
+  	SliderHandleImage="Sprites/SliderHandle.png"
+  	SliderFillMargin="2,2,0,4"
+  	SliderBackgroundImageType="Sliced"
+  	SliderFillImageType="Sliced"
+  	SliderHandleImageType="Simple"
+  	Breadth="20"
+  	SliderHandleLength="25"
+  	SliderHandleBreadth="25"/>
+
+  <!-- Character Selection Styles -->
+  <TabPanel Style="CharacterSelectionTabPanel" TabContentColor="#000000" TabContentImage="" TabContentImageType="Sliced" TabListOrientation="Vertical" TabListContentMargin="0"
+          TabListColor="Clear" TabListMaskImage="" TabListMaskShowGraphic="False" TabListSpacing="5" TabListOffset="5,10,0,0" BackgroundColor="#AAFFFFFF"
+          HorizontalTopLeft-TabListOffset="10,2,0,0" HorizontalTop-TabListOffset="0,2,0,0" HorizontalTopRight-TabListOffset="0,2,10,0" />
+  <TabHeader Style="CharacterSelectionTabHeader" Width="100px" Height="100px" AdjustToText="None"
+             BackgroundImage="Sprites/TabHeaderLarge.png" BackgroundImageType="Simple" Selected-BackgroundImage="Sprites/TabHeaderLargeBright.png" Pressed-BackgroundImage="Sprites/TabHeaderLargeDark.png"
+             Highlighted-BackgroundImage="Sprites/TabHeaderLargeBright.png"
+             />
+
+  <Frame Style="BlueGridBackground" Width="250px" Height="250px" Alpha="0.8" BackgroundImage="Sprites/BlueGrid.png" BackgroundImageType="Simple" />
+  <Frame Style="BlueGridFrame" Width="250px" Height="250px" BackgroundImage="Sprites/BlueGridFrame.png" BackgroundImageType="Simple" />
+  <Image Style="Platform2d" Type="Simple" Sprite="Sprites/Platform2d.png" Width="192px" Height="95px"/>
+  <Image Style="CloudTypeA" Type="Simple" Sprite="Sprites/CloudTypeA.png" Width="100px" Height="35px"/>
+  <Label Style="CharacterLabel" Font="Fonts/Tabardo-font-FFP.otf" Offset="0,0,0,8" FontSize="16" FontColor="Red" ShadowColor="#000000" ShadowDistance="2,-2" AdjustToText="WidthAndHeight"/>
+
+  <Image Style="SisterOneFaceOpened" Type="Simple" Sprite="Sprites/Sister1Opened.png" Width="75px" Height="108px"/>
+  <Image Style="SisterTwoFaceOpened" Type="Simple" Sprite="Sprites/Sister2Opened.png" Width="75px" Height="145px"/>
+  <Image Style="SisterThreeFaceOpened" Type="Simple" Sprite="Sprites/Sister3Opened.png" Width="98px" Height="130px"/>
+  <Image Style="SisterOneFaceClosed" Type="Simple" Sprite="Sprites/Sister1Closed.png" IsVisible="false" Width="75px" Height="108px"/>
+  <Image Style="SisterTwoFaceClosed" Type="Simple" Sprite="Sprites/Sister2Closed.png" IsVisible="false" Width="75px" Height="145px"/>
+  <Image Style="SisterThreeFaceClosed" Type="Simple" Sprite="Sprites/Sister3Closed.png" IsVisible="false" Width="98px" Height="130px"/>
+
+  <Frame Style="StatsFrame" Width="220px" Height="110px" Offset="30,50,0,0" BackgroundColor="#44FFFFFF"/>
+  <Frame Style="LevelsFrame" Width="220px" Height="110px" Offset="30,0,0,116" BackgroundColor="#44FFFFFF"/>
+  <Frame Style="DescriptionFrame" Width="100%" Margin="30,0,30,0" Height="85px" Offset="0,0,0,25" BackgroundColor="#44FFFFFF"/>
+
+  <!-- Level Selection Dialog -->
+  <Button Style="LeftGreenArrowButton" BackgroundImage="Sprites/LeftGreenArrow.png" Pressed-BackgroundImage="Sprites/LeftLightGreenArrow.png" Highlighted-BackgroundImage="Sprites/LeftHighlightedGreenArrow.png" IsToggleButton="false" Width="120px" Height="144px"/>
+  <Button Style="RightGreenArrowButton" BackgroundImage="Sprites/RightGreenArrow.png" Pressed-BackgroundImage="Sprites/RightLightGreenArrow.png" Highlighted-BackgroundImage="Sprites/RightHighlightedGreenArrow.png" IsToggleButton="false" Width="120px" Height="144px"/>
+  <Button Style="LevelGoButton" BackgroundImage="Sprites/ButtonSquareGreen.png" Disabled-BackgroundImage="Sprites/ButtonSquareGray.png" Pressed-BackgroundImage="Sprites/ButtonSquareDarkGreen.png" Highlighted-BackgroundImage="Sprites/ButtonSquareLightGreen.png" BackgroundImageType="Sliced"
+          TextAlignment="Center" TextOffset="0px,0px,0px,0px" Font="Fonts/Tabardo-font-FFP.otf" FontSize="20" FontColor="#FFFFFF" Width="60px" Height="60px" ShadowColor="#000000" ShadowDistance="4,-4" OutlineColor="#000000" OutlineDistance="0,0"
+          Disabled-FontColor="#333333" Disabled-ShadowColor="Gray40" Disabled-OutlineColor="Gray40"/>
+  <Label Style="LevelInfoText" FontColor="#EFEFAA" Font="Fonts/AmericanCaptain.ttf" ShadowColor="#000000" ShadowDistance="2,-2" FontSize="35" Scale="1.0,0.5,1.0"/>
+
+  <!-- Challenge Dialog -->
+  <Slider Style="HealthSlider" SliderFillImage="Sprites/SliderFillGreen.png"/>
+  <Slider Style="StrengthSlider" SliderFillImage="Sprites/SliderFillBlue.png"/>
+
+  <Image Style="EnemyOneFaceOpened" Type="Simple" Sprite="Sprites/GrabberOpened.png" Width="150px" Height="108px"/>
+  <Image Style="EnemyOneFaceClosed" Type="Simple" Sprite="Sprites/GrabberOpened.png" Width="150px" Height="108px"/>
+
+
+  <!--9F9B9BFF-->
+  <!--D3CACAFF-->
+</Theme>

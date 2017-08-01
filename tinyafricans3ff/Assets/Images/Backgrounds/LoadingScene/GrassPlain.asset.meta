@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f5e5b009f517a4beabd2680b7b3b882b
+timeCreated: 1464344750
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"640\" height=\"107\" viewBox=\"0, 0, 640, 107\">\n  <g
+    id=\"GrassPlain\" transform=\"translate(0, -373)\">\n    <path d=\"M-0,375 L640,375
+    L640,480 L-0,480 L-0,375 z\" fill=\"#9ACC00\"/>\n    <path d=\"M-0,373 L640,373
+    L640,375 L-0,375 L-0,373 z\" fill=\"#8FBD00\"/>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

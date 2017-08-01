@@ -1,0 +1,14 @@
+<LoginDialog xmlns="MarkLight">
+
+	<Region Id="MainRegionMount" Width="640px" Height="480px"></Region>
+	<Region Id="MainRegion" Width="640px" Height="480px" BackgroundColor="#77FFFF77" Offset="0,-480,0,0">
+
+		<Group Width="100%" Height="100%" Spacing="10" Alignment="Top" Offset="0,50,0,0" >
+			<Label Style="WelcomeTitle" Text="Welcome!"></Label>
+			<Label Style="WelcomeSubTitle" Text="Akwaaba!!"></Label>
+		</Group>
+		<Button Id="LoginButton" Style="BasicButtonTypeA" Alignment="Center" Text="LOGIN" FontSize="20" Click="Login" Offset="0,0,0,0" />
+	
+	</Region>
+	
+</LoginDialog>

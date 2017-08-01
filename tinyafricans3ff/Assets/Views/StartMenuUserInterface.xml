@@ -1,0 +1,6 @@
+<StartMenuUserInterface xmlns="MarkLight">
+	<UserInterface>
+		<StartMenu/>
+	</UserInterface>
+    <EventSystem />
+</StartMenuUserInterface>

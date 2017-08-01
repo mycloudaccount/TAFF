@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: 80f41441f075f484ea402d0e87d0458b
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: joint1
+    100002: joint10
+    100004: joint11
+    100006: joint12
+    100008: joint13
+    100010: joint14
+    100012: joint15
+    100014: joint16
+    100016: joint17
+    100018: joint18
+    100020: joint19
+    100022: joint2
+    100024: joint20
+    100026: joint21
+    100028: joint22
+    100030: joint3
+    100032: joint4
+    100034: joint5
+    100036: joint6
+    100038: joint7
+    100040: joint8
+    100042: joint9
+    100044: Seagull
+    100046: //RootNode
+    100048: Toon_Bird_Blue
+    100050: Toon_Bird_Gray
+    100052: FeatherMesh
+    100054: Toon_Bird_Yellow
+    400000: joint1
+    400002: joint10
+    400004: joint11
+    400006: joint12
+    400008: joint13
+    400010: joint14
+    400012: joint15
+    400014: joint16
+    400016: joint17
+    400018: joint18
+    400020: joint19
+    400022: joint2
+    400024: joint20
+    400026: joint21
+    400028: joint22
+    400030: joint3
+    400032: joint4
+    400034: joint5
+    400036: joint6
+    400038: joint7
+    400040: joint8
+    400042: joint9
+    400044: Seagull
+    400046: //RootNode
+    400048: Toon_Bird_Blue
+    400050: Toon_Bird_Gray
+    400052: FeatherMesh
+    400054: Toon_Bird_Yellow
+    2300000: FeatherMesh
+    2300002: Toon_Bird_Blue
+    2300004: Toon_Bird_Gray
+    3300000: FeatherMesh
+    3300002: Toon_Bird_Blue
+    3300004: Toon_Bird_Gray
+    4300000: Seagull
+    4300002: Toon_Bird_Blue
+    4300004: Toon_Bird_Gray
+    4300006: FeatherMesh
+    4300008: Toon_Bird_Yellow
+    7400000: Flap
+    7400002: Idle
+    7400004: Soar
+    7400006: Eat
+    7400008: EatGround
+    7400010: EatGroundLoop
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Seagull
+    13700002: Toon_Bird_Blue
+    13700004: Toon_Bird_Gray
+    13700006: Toon_Bird_Yellow
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Flap
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint5/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: joint1/joint9/joint10
+        weight: 1
+      - path: joint1/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint1/joint17
+        weight: 1
+      - path: joint1/joint17/joint18
+        weight: 1
+      - path: joint1/joint17/joint18/joint19
+        weight: 1
+      - path: joint1/joint20
+        weight: 1
+      - path: joint1/joint20/joint21
+        weight: 1
+      - path: joint1/joint20/joint21/joint22
+        weight: 1
+      - path: Seagull
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 240
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint5/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: joint1/joint9/joint10
+        weight: 1
+      - path: joint1/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint1/joint17
+        weight: 1
+      - path: joint1/joint17/joint18
+        weight: 1
+      - path: joint1/joint17/joint18/joint19
+        weight: 1
+      - path: joint1/joint20
+        weight: 1
+      - path: joint1/joint20/joint21
+        weight: 1
+      - path: joint1/joint20/joint21/joint22
+        weight: 1
+      - path: Seagull
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Soar
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 70
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint5/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: joint1/joint9/joint10
+        weight: 1
+      - path: joint1/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint1/joint17
+        weight: 1
+      - path: joint1/joint17/joint18
+        weight: 1
+      - path: joint1/joint17/joint18/joint19
+        weight: 1
+      - path: joint1/joint20
+        weight: 1
+      - path: joint1/joint20/joint21
+        weight: 1
+      - path: joint1/joint20/joint21/joint22
+        weight: 1
+      - path: Seagull
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Eat
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 500
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FeatherMesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint5/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: joint1/joint9/joint10
+        weight: 1
+      - path: joint1/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint1/joint17
+        weight: 1
+      - path: joint1/joint17/joint18
+        weight: 1
+      - path: joint1/joint17/joint18/joint19
+        weight: 1
+      - path: joint1/joint20
+        weight: 1
+      - path: joint1/joint20/joint21
+        weight: 1
+      - path: joint1/joint20/joint21/joint22
+        weight: 1
+      - path: Toon_Bird_Blue
+        weight: 1
+      - path: Toon_Bird_Gray
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EatGround
+      takeName: Take 001
+      firstFrame: 250
+      lastFrame: 500
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FeatherMesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint5/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: joint1/joint9/joint10
+        weight: 1
+      - path: joint1/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint1/joint17
+        weight: 1
+      - path: joint1/joint17/joint18
+        weight: 1
+      - path: joint1/joint17/joint18/joint19
+        weight: 1
+      - path: joint1/joint20
+        weight: 1
+      - path: joint1/joint20/joint21
+        weight: 1
+      - path: joint1/joint20/joint21/joint22
+        weight: 1
+      - path: Toon_Bird_Blue
+        weight: 1
+      - path: Toon_Bird_Gray
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: EatGroundLoop
+      takeName: Take 001
+      firstFrame: 300
+      lastFrame: 380
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FeatherMesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      - path: joint1/joint2/joint3
+        weight: 1
+      - path: joint1/joint2/joint3/joint4
+        weight: 1
+      - path: joint1/joint2/joint3/joint5
+        weight: 1
+      - path: joint1/joint2/joint3/joint5/joint6
+        weight: 1
+      - path: joint1/joint7
+        weight: 1
+      - path: joint1/joint7/joint8
+        weight: 1
+      - path: joint1/joint9
+        weight: 1
+      - path: joint1/joint9/joint10
+        weight: 1
+      - path: joint1/joint9/joint10/joint11
+        weight: 1
+      - path: joint1/joint9/joint10/joint11/joint12
+        weight: 1
+      - path: joint1/joint13
+        weight: 1
+      - path: joint1/joint13/joint14
+        weight: 1
+      - path: joint1/joint13/joint14/joint15
+        weight: 1
+      - path: joint1/joint13/joint14/joint15/joint16
+        weight: 1
+      - path: joint1/joint17
+        weight: 1
+      - path: joint1/joint17/joint18
+        weight: 1
+      - path: joint1/joint17/joint18/joint19
+        weight: 1
+      - path: joint1/joint20
+        weight: 1
+      - path: joint1/joint20/joint21
+        weight: 1
+      - path: joint1/joint20/joint21/joint22
+        weight: 1
+      - path: Toon_Bird_Blue
+        weight: 1
+      - path: Toon_Bird_Gray
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 0
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

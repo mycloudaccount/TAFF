@@ -1,0 +1,280 @@
+<CharacterCustomization BackgroundColor="#00FFFFFF" Width="640" Height="480" xmlns="MarkLight">
+
+	<Region Alignment="Top" Offset="0,0,0,0" Id="CharCustom_Region" Width="640" Height="480">
+
+		<!-- Navigation View Object -->
+		<Image Id="NavigationRegionMountImage" BackgroundColor="Red" Alignment="TopLeft" Margin="15,15,0,0" Width="160" Height="160" Alpha="0"/>
+		<Region Alignment="TopLeft" Offset="-160,-160,0,0" Width="150" Height="150" Id="NavigationRegion" Rotation="0,0,260">
+			<Image Id="SunRaysTypeA01" Style="SunRaysTypeA" Material="{SunRaysMaterialTypeA}" Scale="0.8,0.8,0.8" Offset="0,0,5,5" Alignment="BottomRight"/>
+			<Frame Alignment="TopLeft" Style="FrameCornerTypeA" Width="100%" Height="100%"/>
+			<Frame Style="BronzeButton" Alignment="TopLeft" Offset="23,23,0,0">
+				<Button Style="ArrowLeft" Alignment="Center" Width="45%" Height="45%" Offset="0,0,0,0" Click="Exit"/>
+			</Frame>
+			<Frame Style="BronzeButton" Width="40" Height="40" Alignment="TopRight" Offset="0,24,20,0">
+				<Button Style="Options" Alignment="Center" Width="45%" Height="35%" Offset="0,0,0,0"/>
+			</Frame>
+			<Frame Style="BronzeButton" Width="40" Height="40" Alignment="BottomLeft" Offset="24,0,0,20">
+				<Button Style="Info" Alignment="Center" Width="30%" Height="60%" Offset="2,0,0,1"/>
+			</Frame>
+		</Region>
+		<!-- Navigation View Object -->
+
+		<Region Offset="0,0,0,0" Alignment="TopRight" Id="CustomizationRegion">
+
+			<Image Id="SunRaysTypeA00" Style="SunRaysTypeA" Material="{SunRaysMaterialTypeA}" Offset="0,5,73,0" Alignment="TopRight"/>
+
+	       	<TabPanel Id="CustomOptionsTabPanel" TabSelected="AnimateSelectedTab" Style="CustomizePlayer_Style" Alignment="TopRight" Offset="0,50,20,0" Width="{OptionsWidth}" Height="0">
+
+	        	<Tab Id="HairTab">
+
+	          		<TabHeader Id="HairTabHeader" Style="CustomizePlayer_Style">
+	            		<Region>
+							<Image Style="HatIconTypeA" Width="55%" Height="55%" Alpha="1.0" Offset="0,0,0,0"/>
+							<Frame Style="FramePlasticTypeD" Width="100%" Height="100%"/>
+	            		</Region>
+	          		</TabHeader>
+
+	          		<!-- Any time a new ID is created make sure to reload views in Unity Editor!! -->
+					<Region Id="HairTabRegion" Alignment="Top" Width="100%" Height="{OptionsHeight}">
+
+						<Image Id="CogMount0Image" BackgroundColor="#FF0000" Alignment="Bottom" Width="20" Height="20" Offset="-90,0,0,0" Alpha="0.0"/>
+						<Image Id="CogMount1Image" BackgroundColor="#FF0000" Alignment="Bottom" Width="20" Height="20" Offset="-20,0,0,0" Alpha="0.0"/>
+						<Image Id="CogMount2Image" BackgroundColor="#FF0000" Alignment="Bottom" Width="20" Height="20" Offset="90,0,0,0" Alpha="0.0"/>
+						<Image Id="CogMount3Image" BackgroundColor="#FF0000" Alignment="Bottom" Width="20" Height="20" Offset="20,-2,0,0" Alpha="0.0"/>
+
+						<Mask Width="98%" Height="98%">
+				        	<Region Alignment="Top" Width="100%" Height="100%">
+								<Image Id="CogTypeAImageBkg" Style="CogTypeA" Width="340" Height="340" Alpha="0.24" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage0" Style="CogTypeA" Width="335" Height="335" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage3" Style="CogTypeA" Width="80" Height="80" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage1" Style="CogTypeA" Width="33" Height="33" Alpha="0.8" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage2" Style="CogTypeA" Width="100" Height="100" Alpha="0.3" Offset="0,0,0,0"/>
+				        	</Region>
+				       	</Mask>
+
+						<!--Frame Style="WindowVertical" Width="100%" Height="100%" Alpha="0.69"/-->
+						<Frame Style="GreenCheckersTypeVert" Width="100%" Height="100%" Alpha="0.60"/>
+
+						<Frame Style="FramePlasticTypeB" Width="101%" Height="101%"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Bottom" Scale="0.9,0.9,1.0" Rotation="0,0,90" Offset="0,18,0,0"/>
+
+	            		<Region Width="80%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+							<Frame Style="FrameBackgroundTypeA" Width="85%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+							<Label Style="TitleTypeA" Text="HAIR" Alignment="Center" Margin="0,6,0,0"/>
+							<Frame Style="FramePlasticTypeA" Width="100%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Left" Offset="2,-9,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Right" Offset="0,-9,2,0"/>
+	            		</Region>
+
+						<!--REAL CONTENT GOES HERE-->
+						<Group Width="100%" Height="100%" Spacing="5" Margin="22,50,22,20">
+					        <Region Width="100%" Height="35" Offset="0,0,0,0">
+								<Label Style="TitleTypeB" Text="Hair Color" Alignment="Left" Margin="5,0,0,0"/>
+								<Image Id="BarHairImage" Style="BarTypeA" Width="100%" Height="5" Alignment="Bottom"/>
+					        </Region>
+					        <Region Width="100%" Height="205" Offset="0,0,0,0" BackgroundColor="#00FFFFCC">
+
+								<Image Id="HairColorMarkerImage" Style="ListItemMarkerTypeA" Alignment="Bottom" Width="36" Height="36" Scale="0.0,0.0,0.0" />
+
+							    <DataGrid Width="100%" Items="{HairColorSwitchList}" Alignment="Top" ListMaskShowGraphic="false" ListColor="#00000000">
+
+							      <Row IsTemplate="True" Alignment="Center">
+								        <Column>
+
+							      			<List 
+							      				Padding="5"
+							      				HorizontalSpacing="10"
+							      				Orientation="Horizontal"
+							      				ContentAlignment="Center"
+							      				Alignment="Center"
+							      				Offset="5,0,0,0"
+							      				Items="{#Item}"
+							      				BackgroundColor="#00000000"
+							      				ListMaskShowGraphic="false"
+							      			>
+								        		<ListItem Style="ListItemColorPicker" IsTemplate="True" Height="30" Width="30" 
+								        		>
+													<Button
+														Style="ColorPaletteButtonTypeA"
+														BackgroundColor="{=#Item.ColorString}"
+														Id="{#Item.Id}"
+														Click="UpdateHairColor"
+														MouseEnter="MouseEnterColorSwitch"
+														MouseExit="MouseExitColorSwitch"
+													>
+													</Button>
+								        		</ListItem>
+							      			</List>
+
+								        </Column>
+							      </Row>
+
+							    </DataGrid>
+
+					        </Region>
+					        <Region Width="100%" Height="32px" Margin="4,4,4,4" BackgroundColor="#FFFFFF" Alpha="0.7">
+								<Image Id="HairColorIndicatorImage" Style="ColorIndicator" BackgroundColor="#AAFFFFFF" Width="100%" Height="100%" Margin="4,4,4,4" Alpha="0.8"/>
+					        </Region>
+						</Group>
+						<!--REAL CONTENT GOES HERE-->
+
+					</Region>
+	        	</Tab>
+
+	        	<Tab Id="ClothesTab">
+
+	          		<TabHeader Id="ClothesTabHeader" Style="CustomizePlayer_Style">
+	            		<Region>
+							<Image Style="ClothesIconTypeA" Width="60%" Height="60%" Alpha="1.0" Offset="0,0,0,0"/>
+							<Frame Style="FramePlasticTypeD" Width="100%" Height="100%"/>
+	            		</Region>
+	          		</TabHeader>
+
+					<Region Id="ClothesTabRegion" Alignment="Top" Width="100%" Height="{OptionsHeight}">
+
+						<Mask Width="98%" Height="98%">
+				        	<Region Alignment="Top" Width="100%" Height="100%">
+								<Image Id="CogTypeAImageBkg" Style="CogTypeA" Width="340" Height="340" Alpha="0.24" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage4" Style="CogTypeA" Width="335" Height="335" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage7" Style="CogTypeA" Width="80" Height="80" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage5" Style="CogTypeA" Width="33" Height="33" Alpha="0.8" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage6" Style="CogTypeA" Width="100" Height="100" Alpha="0.3" Offset="0,0,0,0"/>
+				        	</Region>
+				       	</Mask>
+
+						<Frame Style="GreenCheckersTypeVert" Width="100%" Height="100%" Alpha="0.60"/>
+
+						<Frame Style="FramePlasticTypeB" Width="101%" Height="101%"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Bottom" Scale="0.9,0.9,1.0" Rotation="0,0,90" Offset="0,18,0,0"/>
+
+	            		<Region Width="80%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+							<Frame Style="FrameBackgroundTypeA" Width="85%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+							<Label Style="TitleTypeA" Text="CLOTHES" FontSize="25" Alignment="Center" Margin="0,6,0,0"/>
+							<Frame Style="FramePlasticTypeA" Width="100%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Left" Offset="2,-9,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Right" Offset="0,-9,2,0"/>
+	            		</Region>
+
+						<!--REAL CONTENT GOES HERE-->
+						<Group Width="100%" Height="100%" Spacing="5" Margin="22,50,22,20">
+					        <Region Width="100%" Height="35" Offset="0,0,0,0">
+								<Label Style="TitleTypeB" Text="Suit Color" Alignment="Left" Margin="5,0,0,0"/>
+								<Image Id="BarClothesImage" Style="BarTypeA" Width="100%" Height="5" Alignment="Bottom"/>
+					        </Region>
+					        <Region Width="100%" Height="240" Offset="0,0,0,0" BackgroundColor="#00FFFFCC">
+					        </Region>
+						</Group>
+						<!--REAL CONTENT GOES HERE-->
+
+					</Region>
+	        	</Tab>
+
+	        	<Tab Id="HeadBandTab">
+
+	          		<TabHeader Id="HeadBandTabHeader" Style="CustomizePlayer_Style">
+	            		<Region>
+							<Image Style="HeadBandIconTypeA" Width="60%" Height="60%" Alpha="1.0" Offset="0,0,0,0"/>
+							<Frame Style="FramePlasticTypeD" Width="100%" Height="100%"/>
+	            		</Region>
+	          		</TabHeader>
+
+					<Region Id="HeadBandTabRegion" Alignment="Top" Width="100%" Height="{OptionsHeight}">
+
+						<Mask Width="98%" Height="98%">
+				        	<Region Alignment="Top" Width="100%" Height="100%">
+								<Image Id="CogTypeAImageBkg" Style="CogTypeA" Width="340" Height="340" Alpha="0.24" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage8" Style="CogTypeA" Width="335" Height="335" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage11" Style="CogTypeA" Width="80" Height="80" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage9" Style="CogTypeA" Width="33" Height="33" Alpha="0.8" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage10" Style="CogTypeA" Width="100" Height="100" Alpha="0.3" Offset="0,0,0,0"/>
+				        	</Region>
+				       	</Mask>
+
+						<Frame Style="GreenCheckersTypeVert" Width="100%" Height="100%" Alpha="0.60"/>
+
+						<Frame Style="FramePlasticTypeB" Width="101%" Height="101%"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Bottom" Scale="0.9,0.9,1.0" Rotation="0,0,90" Offset="0,18,0,0"/>
+
+	            		<Region Width="80%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+							<Frame Style="FrameBackgroundTypeA" Width="85%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+							<Label Style="TitleTypeA" Text="HEADBAND" FontSize="20" Alignment="Center" Margin="0,6,0,0"/>
+							<Frame Style="FramePlasticTypeA" Width="100%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Left" Offset="2,-9,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Right" Offset="0,-9,2,0"/>
+	            		</Region>
+
+						<!--REAL CONTENT GOES HERE-->
+						<Group Width="100%" Height="100%" Spacing="5" Margin="22,50,22,20">
+					        <Region Width="100%" Height="35" Offset="0,0,0,0">
+								<Label Style="TitleTypeB" Text="Headband Style" Alignment="Left" Margin="5,0,0,0"/>
+								<Image Id="BarHeadBandImage" Style="BarTypeA" Width="100%" Height="5" Alignment="Bottom"/>
+					        </Region>
+					        <Region Width="100%" Height="205" Offset="0,0,0,0" BackgroundColor="#00FFFFCC">
+
+								<Image Id="HairColorMarkerImage" Style="ListItemMarkerTypeA" Alignment="Bottom" Width="36" Height="36" Scale="0.0,0.0,0.0" />
+
+							    <DataGrid Width="100%" Items="{HairColorSwitchList}" Alignment="Top" ListMaskShowGraphic="false" ListColor="#00000000">
+
+							      <Row IsTemplate="True" Alignment="Center">
+								        <Column>
+
+							      			<List 
+							      				Padding="5"
+							      				HorizontalSpacing="10"
+							      				Orientation="Horizontal"
+							      				ContentAlignment="Center"
+							      				Alignment="Center"
+							      				Offset="5,0,0,0"
+							      				Items="{#Item}"
+							      				BackgroundColor="#00000000"
+							      				ListMaskShowGraphic="false"
+							      			>
+								        		<ListItem Style="ListItemColorPicker" IsTemplate="True" Height="30" Width="30" 
+								        		>
+													<Button
+														Style="ColorPaletteButtonTypeA"
+														BackgroundColor="{=#Item.ColorString}"
+														Id="{#Item.Id}"
+														Click="UpdateHairColor"
+														MouseEnter="MouseEnterColorSwitch"
+														MouseExit="MouseExitColorSwitch"
+													>
+													</Button>
+								        		</ListItem>
+							      			</List>
+
+								        </Column>
+							      </Row>
+
+							    </DataGrid>
+
+					        </Region>
+					        <Region Width="100%" Height="32px" Margin="4,4,4,4" BackgroundColor="#FFFFFF" Alpha="0.7">
+								<Image Id="HairColorIndicatorImage" Style="ColorIndicator" BackgroundColor="#AAFFFFFF" Width="100%" Height="100%" Margin="4,4,4,4" Alpha="0.8"/>
+					        </Region>						</Group>
+						<!--REAL CONTENT GOES HERE-->
+
+					</Region>
+	        	</Tab>
+
+	      	</TabPanel>
+
+		</Region>
+
+		<SaveGameStateDialog Id="SaveGameStateDialogView" IsActive="true"/>
+
+	</Region>
+
+</CharacterCustomization>

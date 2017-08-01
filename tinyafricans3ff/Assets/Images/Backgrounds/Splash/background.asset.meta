@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2282bcfe34b574a30b309b471e1751a5
+timeCreated: 1466730382
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"82\" height=\"82\" viewBox=\"0, 0, 82, 82\">\n  <g id=\"background\"
+    transform=\"translate(-279, -199)\">\n    <g>\n      <path d=\"M320.5,280.5 C298.409,280.5
+    280.5,262.591 280.5,240.5 C280.5,218.409 298.409,200.5 320.5,200.5 C342.591,200.5
+    360.5,218.409 360.5,240.5 C360.5,262.591 342.591,280.5 320.5,280.5 z\" fill=\"#FFFFFF\"/>\n
+    \     <path d=\"M320.5,280.5 C298.409,280.5 280.5,262.591 280.5,240.5 C280.5,218.409
+    298.409,200.5 320.5,200.5 C342.591,200.5 360.5,218.409 360.5,240.5 C360.5,262.591
+    342.591,280.5 320.5,280.5 z\" fill-opacity=\"0\" stroke=\"#000000\" stroke-width=\"1\"/>\n
+    \   </g>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

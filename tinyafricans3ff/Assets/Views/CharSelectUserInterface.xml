@@ -1,0 +1,6 @@
+<CharSelectUserInterface xmlns="MarkLight">
+	<UserInterface>
+		<CharacterSelection/>
+	</UserInterface>
+    <EventSystem />
+</CharSelectUserInterface>

@@ -1,0 +1,26 @@
+<SplashMenu xmlns="MarkLight">
+
+	<Region Width="640px" Height="480px" BackgroundColor="#00000000">
+
+		<Mask Id="SkyMask" Width="100%" Height="100px">
+			<Region Id="SkyRegion" Width="105%" Height="105%" BackgroundColor="#83CBFE">
+
+				<Image Id="CountryNameMarkerOneRight" Alignment="Right" Width="10" Height="10" Offset="0,0,-130,0" BackgroundColor="#FF0000"/>
+				<Image Id="CountryNameMarkerOneLeft" Alignment="Left" Width="10" Height="10" Offset="-100,0,0,0" BackgroundColor="#FF0000"/>
+				<Image Id="CountryNameMarkerTwoRight" Alignment="TopRight" Width="10" Height="10" Offset="0,15,-70,0" BackgroundColor="#FF0000"/>
+				<Image Id="CountryNameMarkerTwoLeft" Alignment="TopLeft" Width="10" Height="10" Offset="-100,15,0,0" BackgroundColor="#FF0000"/>
+				<Image Id="CountryNameMarkerThreeRight" Alignment="BottomRight" Width="10" Height="10" Offset="0,0,-150,15" BackgroundColor="#FF0000"/>
+				<Image Id="CountryNameMarkerThreeLeft" Alignment="BottomLeft" Width="10" Height="10" Offset="-100,0,0,15" BackgroundColor="#FF0000"/>
+
+				<Label Id="NigeriaLabel" Text="Nigeria" FontColor="#FFC67B" Offset="0,-1000,0,0" FontSize="20" Style="AfricanCountyName"/>
+				<Label Id="GhanaLabel" Text="Ghana" FontColor="#B387FE" Offset="0,-1000,0,0" FontSize="30" Style="AfricanCountyName"/>
+				<Label Id="CameroonLabel" Text="Cameroon" FontColor="#FFEF7B" Offset="0,-1000,0,0" FontSize="25" Style="AfricanCountyName"/>
+
+			</Region>
+		</Mask>
+
+		<LoginDialog></LoginDialog>
+
+	</Region>
+
+</SplashMenu>

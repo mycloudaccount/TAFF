@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!43 &4396294
+Mesh:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ZebraStripesOne
+  serializedVersion: 8
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 345
+    topology: 0
+    firstVertex: 0
+    vertexCount: 123
+    localAABB:
+      m_Center: {x: 0, y: 0, z: -0}
+      m_Extent: {x: 3.1999998, y: 2.4, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexBuffer: 00000100020003000100000003000400010003000500040006000500030006000700050007000600080009000a000b0009000c000a000d000c0009000d000e000c000f000e000d000f0010000e00110010000f001100120010001300120011001300140012000000140013000200140000001500140002001600140015001700140016001700180014001900180017001a00180019001a001b0018001a001c001b001d001c001a001e001c001d001f001c001e0020001c001f001c0020002100220023002400250023002200250026002300260025002700280029002a0028002b0029002c002b0028002c002d002b002e002d002c002e002f002d0030002f002e00300031002f002200310030002400310022003200310024003200330031003400330032003500330034003500360033003700360035003800360037003900360038003a003600390036003a003b003c003d003e003c003f003d003c0040003f003c00410040003c00420041003c00430042003c00440043003c0045004400460045003c0046004700450046004800470046004900480046004a0049004a0046004b004c004d004e004f004d004c004f0050004d00510050004f005200500051005300500052005300540050005500540053004a00540055004b0054004a004b0056005400570056004b0057005800560059005800570059005a0058005b005a0059005b005c005a005d005c005b005d005e005c005f005e005d0060005e005f00600061005e006100600062006300640065006600640063006700640066006800640067006900640068006a006400690064006a006b006c006d006e006f006d006c0065006d006f0064006d00650070006d006400700071006d00720071007000730071007200730074007100750074007300750076007400770076007500770078007600790078007700780079007a00
+  m_Skin: []
+  m_VertexData:
+    m_CurrentChannels: 5
+    m_VertexCount: 123
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 12
+      format: 2
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1968
+    _typelessdata: a045f6bf0045013c00000080ffffffff572fc6bf16180a3f00000080ffffffff4043a7bf70eb3e3f00000080ffffffff842a11c0a0d201be00000080ffffffffe9e7e9bf0843a63e00000080ffffffff36e00fc000f3c83c00000080ffffffffde5428c010e883be00000080ffffffff868a29c0c0d67abe00000080ffffffff627f2dc0b0f491be00000080ffffffff185122bf9a99313f00000080ffffffff7848ffbe66c7563f00000080ffffffff442409bf4a804a3f00000080ffffffff08c8eebe1461633f00000080ffffffff84ab42bff875183f00000080ffffffffe06bcfbe4aba7e3f00000080ffffffffd8ef68bfb4b5fe3e00000080ffffffff8879a4bed7ff953f00000080ffffffff205495bf30b7b43e00000080ffffffff409765bef892b63f00000080ffffffff5695c5bf10b72e3e00000080ffffffff705a13beb4b0d73f00000080ffffffffd69e95bffa7e623f00000080ffffffff4e708dbf9c42773f00000080ffffffff7a9b8abf7446803f00000080ffffffff005f5ebdfc91024000000080ffffffff5aeb83bf7b018e3f00000080fffffffff0c370bfe032ab3f00000080ffffffff00df0e3c7fa4164000000080ffffffff8055873c9a99194000000080ffffffff08415ebf4e4ac93f00000080ffffffff30e14fbf9296e63f00000080ffffffff8c2741bfb5ab064000000080ffffffff601038bff836174000000080ffffffff5c1537bf9a99194000000080ffffffff471642c083e29f3f00000080ffffffffaf3d3bc084f5b73f00000080ffffffff348033c02f8bc53f00000080ffffffff326d4bc08ca69f3f00000080ffffffff882949c0d044a43f00000080ffffffffcccc4cc018d49f3f00000080ffffffffc2bb22c01ea7b43f00000080ffffffff10fc1dc05496bd3f00000080ffffffffc37c1fc02861ba3f00000080ffffffff471b1bc0fdc1c43f00000080fffffffffc1328c055a9ad3f00000080ffffffff0a9d15c02c9fd53f00000080ffffffff59bb2fc0f2f4a63f00000080ffffffffab9010c00c98e83f00000080ffffffff9d7b37c039bea23f00000080ffffffff54130cc0462afc3f00000080ffffffff68002fc00152cf3f00000080ffffffff280a04c054e8124000000080ffffffffc91a2dc0f050d43f00000080ffffffffd6a32ac0a800dc3f00000080ffffffff6ed301c09a99194000000080ffffffff857226c05efeeb3f00000080ffffffff3c2723c0c520fc3f00000080ffffffff6da820c03acc054000000080ffffffffc7411dc03203154000000080ffffffff8fa01cc09a99194000000080ffffffff8055873c9a9919c000000080ffffffff88ac763ff22918c000000080ffffffffc07e793f9a9919c000000080ffffffff20c06b3f242311c000000080ffffffff90a6633f64af09c000000080ffffffff60ce5d3f906600c000000080ffffffff30b75c3f683aebbf00000080ffffffff6884603fd478d9bf00000080ffffffff40d6653f6c09cdbf00000080fffffffff8bf6d3fb038c0bf00000080ffffffff00419f3c9e7b17c000000080ffffffffd890783ff41ab3bf00000080ffffffff68287f3f4c76acbf00000080ffffffff546b823f1ee6a7bf00000080ffffffffdcac8a3f86259ebf00000080ffffffff80a8523da0c308c000000080ffffffff3ea52540d08ba1be00000080ffffffffae732440a8319abe00000080ffffffffc6ac2940b0f491be00000080ffffffff78840b40180406bf00000080ffffffff42090d40f89fc3be00000080ffffffff9040e03fbced42bf00000080ffffffff9cf0bb3f6cd36fbf00000080fffffffff4b5a33f7ccb88bf00000080ffffffffd48ced3ff0ebf0be00000080ffffffff1cf1953f42b793bf00000080ffffffff645ebc3f088115bf00000080ffffffff208be03d1cebeebf00000080ffffffffdc81973fd4212fbf00000080ffffffffb0362e3e78a5d4bf00000080ffffffff5c25803fe4e841bf00000080ffffffff10ad803e348ab9bf00000080ffffffff4001553facf555bf00000080ffffffff10b2a73ed28ca5bf00000080ffffffff986f2e3f2c356bbf00000080ffffffff20c9c53e70bb98bf00000080ffffffffa81fd63ec28b92bf00000080ffffffff1cde0d3f82ca80bf00000080ffffffffa027e93ec6808cbf00000080ffffffffa6a52a408c92d7bf00000080ffffffffe80af73f9a9919c000000080ffffffffdc802f402c2bcdbf00000080ffffffff92b32840c8a7dcbf00000080ffffffff0e372640943fe4bf00000080ffffffff40de2140f08ff3bf00000080ffffffff70ce1c4016d904c000000080ffffffff7e3f1740d2a915c000000080ffffffff405216409a9919c000000080ffffffff407948402814a6bf00000080ffffffff5a213d40e891abbf00000080ffffffffcccc4c40c66da0bf00000080fffffffffe3a38407ed9bdbf00000080ffffffff94bdfa3f384f11c000000080ffffffffac302e407220b8bf00000080ffffffffe0370040f4a608c000000080ffffffff7012034016fb01c000000080ffffffff7eb323401e77c2bf00000080ffffffff3ed0064050f7f5bf00000080ffffffff4adc1940900fcebf00000080ffffffff808c0b4064fde7bf00000080ffffffff12751340906bd7bf00000080ffffffff40520e404838e1bf00000080ffffffff6cde0f408ce9ddbf00000080ffffffff
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: -0}
+    m_Extent: {x: 3.1999998, y: 2.4, z: 0}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshOptimized: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35648741dd5b14baa82bec08abfe7457, type: 3}
+  m_Name: ZebraStripesOne
+  m_EditorClassIdentifier: 
+  _lastTimeModified: 636031100440002830
+  _documentAsset: {fileID: 11426990}
+  _sharedMesh: {fileID: 4396294}
+  _antialiasing: 0
+  _antialiasingWidth: 0
+  _generateCollider: 0
+  _keepSVGFile: 0
+  _ignoreSVGCanvas: 1
+  _colliderShape: []
+  _format: 2
+  _useGradients: 1
+  _meshCompression: 0
+  _optimizeMesh: 1
+  _generateNormals: 0
+  _generateTangents: 0
+  _scale: 0.01
+  _vpm: 1000
+  _depthOffset: 0.01
+  _compressDepth: 1
+  _pivotPoint: {x: 0.5, y: 0.5}
+  _customPivotPoint: 0
+  _border: {x: 0, y: 0, z: 0, w: 0}
+  _sliceMesh: 0
+  _sharedGradients: []
+  _sharedShaders:
+  - SVG Importer/SolidColor/SolidColorAlphaBlended
+  _canvasRectangle:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 6.3999996
+    height: 4.7999997
+  _layers: []
+--- !u!114 &11426990
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363e9872ad27a4ca59c07d233fdf0023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _errors: 
+  _svgFile: 
+  _title: 
+  _description: 

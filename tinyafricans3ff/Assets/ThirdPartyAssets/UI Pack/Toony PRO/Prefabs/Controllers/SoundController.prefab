@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &111498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 417098}
+  - 114: {fileID: 11459284}
+  m_Layer: 0
+  m_Name: SoundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417098
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111498}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -4.98697948}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11459284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bc98b4c6dbd846d8a210fba8ef6aec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MaxAudioSource: 8
+  m_Music: {fileID: 8300000, guid: 48ea61e614c1f40a387fbd33967f226a, type: 3}
+  m_ButtonBack: {fileID: 8300000, guid: a44087fa3b6dc48d28f91873521e7543, type: 3}
+  m_ButtonClick: {fileID: 8300000, guid: 38079713ac813444691665780f3d0960, type: 3}
+  m_ButtonDisable: {fileID: 8300000, guid: 021ae46dad6884066ae3e916a8bb3a9c, type: 3}
+  m_ButtonNo: {fileID: 8300000, guid: eeb6d9259ea0e41febf6355eb62747ef, type: 3}
+  m_ButtonPause: {fileID: 8300000, guid: 0d742c066e0434ff09c4fde91772ce13, type: 3}
+  m_ButtonPlay: {fileID: 8300000, guid: c8af2c8d8063a4a6497e9575bf74228a, type: 3}
+  m_ButtonTab: {fileID: 8300000, guid: 805891eb1d53b45108a345977240d7f6, type: 3}
+  m_ButtonYes: {fileID: 8300000, guid: 7ca46b43ef14e436798aa2962084634a, type: 3}
+  m_SoundVolume: 1
+  m_MusicVolume: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 111498}
+  m_IsPrefabParent: 1

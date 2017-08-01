@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ea48687f270ab42a08dcd9b3824b038d
+timeCreated: 1468715311
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"640\" height=\"480\" viewBox=\"0, 0, 640, 480\">\n  <g
+    id=\"SkyBackground\" transform=\"translate(-80, -31.042)\">\n    <path d=\"M80,31.042
+    L720,31.042 L720,511.042 L80,511.042 L80,31.042 z\" fill=\"#8DC4FF\" id=\"Background\"/>\n
+    \ </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

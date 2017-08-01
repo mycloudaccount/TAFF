@@ -1,0 +1,7 @@
+<HUDMenu xmlns="MarkLight">
+
+	<Region Id="MainContentRegionMount" Width="640px" Height="480px"></Region>
+	<Region Id="MainContentRegion" Width="640px" Height="480px" BackgroundColor="#AAFFFF77" Offset="0,0,0,0">
+	</Region>
+
+</HUDMenu>

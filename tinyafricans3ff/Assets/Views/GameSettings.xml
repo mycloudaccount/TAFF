@@ -1,0 +1,183 @@
+<GameSettings xmlns="MarkLight">
+
+	<Region Id="MainRegionMount" Alignment="Center" Width="640" Height="480"/>
+	<Region Id="MainRegion" Alignment="Center" Width="640" Height="480" Offset="0,480,0,0">
+
+		<Image Id="MainBackgroundImage" Width="100%" Height="100%" BackgroundColor="#FFFFFF" Alpha="0.5"/>
+
+		<!--PLACE CONTENT HERE-->
+		<Region Id="MainContentRegion" Width="100%" Alignment="Center" BackgroundColor="#000000FF">
+
+			<Image Id="SunRaysTypeA00" Style="SunRaysTypeA" Material="{SunRaysMaterialTypeA}" Offset="0,5,0,0" Alignment="Top"/>
+
+	       	<TabPanel Id="GameSettingsTabPanel" TabSelected="AnimateSelectedTab" Style="CustomizePlayer_Style" Alignment="Top" Offset="0,50,25,0" Width="{OptionsWidth}" Height="0">
+
+	        	<Tab Id="SoundTab">
+
+	          		<TabHeader Id="SoundTabHeader" Style="CustomizePlayer_Style">
+	            		<Region>
+							<Image Style="Sound" BackgroundColor="#ffdc73" Width="55%" Height="55%" Alpha="1.0" Offset="0,0,0,0"/>
+							<Frame Style="FramePlasticTypeD" Width="100%" Height="100%"/>
+	            		</Region>
+	          		</TabHeader>
+
+	          		<!-- Any time a new ID is created make sure to reload views in Unity Editor!! -->
+					<Region Id="SoundTabRegion" Alignment="Top" Width="100%" Height="{OptionsHeight}">
+
+						<Image Id="CogMount0Image" BackgroundColor="#FF0000" Alignment="Bottom" Width="20" Height="20" Offset="-100,0,0,0" Alpha="0.0"/>
+						<Image Id="CogMount1Image" BackgroundColor="#FF0000" Alignment="Bottom" Width="20" Height="20" Offset="-30,0,0,0" Alpha="0.0"/>
+						<Image Id="CogMount2Image" BackgroundColor="#FF0000" Alignment="Bottom" Width="20" Height="20" Offset="100,0,0,0" Alpha="0.0"/>
+						<Image Id="CogMount3Image" BackgroundColor="#FF0000" Alignment="Bottom" Width="20" Height="20" Offset="30,-2,0,0" Alpha="0.0"/>
+
+						<Mask Width="98%" Height="98%">
+				        	<Region Alignment="Top" Width="100%" Height="100%">
+								<Image Id="CogTypeAImageBkg" Style="CogTypeA" Width="480" Height="480" Alpha="0.24" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage0" Style="CogTypeA" Width="475" Height="475" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage3" Style="CogTypeA" Width="140" Height="140" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage1" Style="CogTypeA" Width="76" Height="76" Alpha="0.8" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage2" Style="CogTypeA" Width="260" Height="260" Alpha="0.3" Offset="0,0,0,0"/>
+				        	</Region>
+				       	</Mask>
+
+						<Frame Style="GreenCheckersTypeHor" Width="100%" Height="100%" Alpha="0.60"/>
+
+						<Frame Style="FramePlasticTypeB" Width="101%" Height="101%"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Bottom" Scale="0.9,0.9,1.0" Rotation="0,0,90" Offset="0,18,0,0"/>
+
+	            		<Region Width="50%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+							<Frame Style="FrameBackgroundTypeA" Width="85%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+							<Label Style="TitleTypeA" Text="SOUND" Alignment="Center" Margin="0,6,0,0"/>
+							<Frame Style="FramePlasticTypeA" Width="100%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Left" Offset="2,-9,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Right" Offset="0,-9,2,0"/>
+	            		</Region>
+
+						<!--REAL CONTENT GOES HERE-->
+						<Group Width="100%" Height="100%" Spacing="5" Margin="22,50,22,20">
+					        <Region Width="100%" Height="35" Offset="0,10,0,0">
+								<Label Style="TitleTypeB" Text="Music Volume: {MusicVolumeSlider.Value:0}%" Alignment="Left" Margin="5,0,0,0"/>
+								<Label Id="MusicMuteLabel" IsVisible="false" Style="TitleTypeC" FontColor="#FF0000" Text="MUTED" Alignment="Right" Margin="0,0,5,0"/>
+								<Image Style="BarTypeA" Width="90%" Height="5" Alignment="BottomLeft"/>
+								<Image Style="BarTypeB" Width="4%" Height="5" Alignment="BottomRight" Offset="0,0,15,0"/>
+								<Image Style="BarTypeC" Width="4%" Height="5" Alignment="BottomRight" Offset="0,0,0,0"/>
+					        </Region>
+					        <Region Width="100%" Height="70" BackgroundColor="#00FFFFCC" Offset="0,10,0,0">
+					        	<Group Width="100%" Height="100%" Spacing="5" Margin="0,0,0,0">
+					        		<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Spacing="5" Margin="0,0,0,0">
+					        			<Button Id="MusicMuteButton" Style="MuteButton" Click="ToggleMute" Scale="0.8,0.8,1.0"/>
+					        			<Image Style="VolumeLow" BackgroundColor="#ffdc73"></Image>
+					        			<Slider Id="MusicVolumeSlider" Value="{MusicVolume}" Min="0" Max="100" Length="150"/>
+					        			<Image Style="VolumeHigh" BackgroundColor="#ffdc73"></Image>
+					        		</Group>
+								</Group>
+					        </Region>
+					        <Region Width="100%" Height="35">
+								<Label Style="TitleTypeB" Text="Effects Volume: {EffectsVolumeSlider.Value:0}%" Alignment="Left" Margin="5,0,0,0"/>
+								<Label Id="EffectsMuteLabel" IsVisible="false" Style="TitleTypeC" FontColor="#FF0000" Text="MUTED" Alignment="Right" Margin="0,0,5,0"/>
+								<Image Style="BarTypeA" Width="90%" Height="5" Alignment="BottomLeft"/>
+								<Image Style="BarTypeB" Width="4%" Height="5" Alignment="BottomRight" Offset="0,0,15,0"/>
+								<Image Style="BarTypeC" Width="4%" Height="5" Alignment="BottomRight" Offset="0,0,0,0"/>
+					        </Region>
+					        <Region Width="100%" Height="120" BackgroundColor="#00FFFFCC">
+					        	<Group Width="100%" Height="100%" Spacing="5" Margin="0,0,0,0">
+					        		<Group Orientation="Horizontal" ContentAlignment="Left" Width="100%" Spacing="5" Margin="0,0,0,0">
+					        			<Button Id="EffectsMuteButton" Style="MuteButton" Click="ToggleMute" Scale="0.8,0.8,1.0"/>
+					        			<Image Style="VolumeLow" BackgroundColor="#ffdc73"></Image>
+					        			<Slider Id="EffectsVolumeSlider" Value="{EffectsVolume}" Min="0" Max="100" Width="150"/>
+					        			<Image Style="VolumeHigh" BackgroundColor="#ffdc73"></Image>
+					        		</Group>
+								</Group>
+					        </Region>
+						</Group>
+						<!--REAL CONTENT GOES HERE-->
+
+					</Region>
+	        	</Tab>
+
+	        	<Tab Id="DisplayTab">
+
+	          		<TabHeader Id="DisplayTabHeader" Style="CustomizePlayer_Style">
+	            		<Region>
+							<Image Style="Display" BackgroundColor="#ffdc73" Width="60%" Height="60%" Alpha="1.0" Offset="0,0,0,0"/>
+							<Frame Style="FramePlasticTypeD" Width="100%" Height="100%"/>
+	            		</Region>
+	          		</TabHeader>
+
+					<Region Id="DisplayTabRegion" Alignment="Top" Width="100%" Height="{OptionsHeight}">
+
+						<Mask Width="98%" Height="98%">
+				        	<Region Alignment="Top" Width="100%" Height="100%">
+								<Image Id="CogTypeAImageBkg" Style="CogTypeA" Width="480" Height="480" Alpha="0.24" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage4" Style="CogTypeA" Width="475" Height="475" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage7" Style="CogTypeA" Width="140" Height="140" Alpha="0.6" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage5" Style="CogTypeA" Width="76" Height="76" Alpha="0.8" Offset="0,0,0,0"/>
+								<Image Id="CogTypeAImage6" Style="CogTypeA" Width="260" Height="260" Alpha="0.3" Offset="0,0,0,0"/>
+				        	</Region>
+				       	</Mask>
+
+						<Frame Style="GreenCheckersTypeHor" Width="100%" Height="100%" Alpha="0.60"/>
+
+						<Frame Style="FramePlasticTypeB" Width="101%" Height="101%"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Left" Scale="0.9,0.9,1.0" Offset="-6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,-70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Right" Scale="0.9,0.9,1.0" Rotation="0,0,180" Offset="6,70,0,0"/>
+						<Image Style="FrameFastenerTypeB" Alignment="Bottom" Scale="0.9,0.9,1.0" Rotation="0,0,90" Offset="0,18,0,0"/>
+
+	            		<Region Width="50%" Height="60px" Alignment="Top" Offset="0,-14,0,0">
+							<Frame Style="FrameBackgroundTypeA" Width="85%" Height="32px" Alignment="Center" Offset="0,0,0,0"/>
+							<Label Style="TitleTypeA" Text="DISPLAY" FontSize="25" Alignment="Center" Margin="0,6,0,0"/>
+							<Frame Style="FramePlasticTypeA" Width="100%" Height="100%" Alignment="Top" Offset="0,0,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Left" Offset="2,-9,0,0"/>
+							<Image Style="ScrewTypeA" Alignment="Right" Offset="0,-9,2,0"/>
+	            		</Region>
+
+						<!--REAL CONTENT GOES HERE-->
+						<Group Width="100%" Height="100%" Spacing="5" Margin="22,50,22,20">
+					        <Region Width="100%" Height="35" Offset="0,10,0,0">
+								<Label Style="TitleTypeB" Text="Hints" Alignment="Left" Margin="5,0,0,0"/>
+								<Image Style="BarTypeA" Width="90%" Height="5" Alignment="BottomLeft"/>
+								<Image Style="BarTypeB" Width="4%" Height="5" Alignment="BottomRight" Offset="0,0,15,0"/>
+								<Image Style="BarTypeC" Width="4%" Height="5" Alignment="BottomRight" Offset="0,0,0,0"/>
+					        </Region>
+					        <Region Width="100%" Height="240" Offset="0,10,0,0" BackgroundColor="#00FFFFCC">
+					        </Region>
+						</Group>
+						<!--REAL CONTENT GOES HERE-->
+
+					</Region>
+	        	</Tab>
+
+	      	</TabPanel>
+
+		</Region>
+
+		<Button Style="BasicButtonTypeA" Id="ExitButton" Text="EXIT" Click="Exit" Alignment="Bottom" Offset="0,0,0,20"/>
+
+		<SaveGameStateDialog Id="SaveGameStateDialogView" IsActive="true"/>
+
+	</Region>
+
+	<!-- ANIMATIONS -->
+
+    <ViewAnimation Id="MainContentRegionInAnimation">
+        <Animate Field="MainContentRegion.Alpha" From="0" To="1.0" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="MainContentRegionOutAnimation">
+        <Animate Field="MainContentRegion.Alpha" From="1.0" To="0" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="MainBackgroundImageInAnimation">
+        <Animate Field="MainBackgroundImage.Alpha" From="1.0" To="0.6" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="MainBackgroundImageOutAnimation">
+        <Animate Field="MainBackgroundImage.Alpha" From="0.6" To="1.0" Duration="1000ms" />
+    </ViewAnimation>
+
+</GameSettings>

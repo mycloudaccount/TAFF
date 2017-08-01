@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4eaaa22e125d74d0883a468a774848a8
+timeCreated: 1464474979
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"422\" height=\"422\" viewBox=\"0, 0, 422, 422\">\n  <g
+    id=\"CircleThreeFrame\" transform=\"translate(-109, -163)\">\n    <path d=\"M320.5,544.5
+    C226.612,544.5 150.5,468.388 150.5,374.5 C150.5,280.612 226.612,204.5 320.5,204.5
+    C414.388,204.5 490.5,280.612 490.5,374.5 C490.5,468.388 414.388,544.5 320.5,544.5
+    z\" fill-opacity=\"0\" stroke=\"#FFFFFF\" stroke-width=\"20\"/>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

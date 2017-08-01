@@ -1,0 +1,65 @@
+GearDriver.cs
+-------------
+
+Simple Gear Driver Script by Alexander Schlottau, Hamburg, Germany
+
+
+Add this script to a Procedural Gear to drive it.
+It works only with the gears created by the asset "Procedural Gear" from the Unity Asset Store.
+
+You also can add this script to a cylinder (or any other GameObject) to use it as a shaft.
+
+
+Setup and align the gears you need for your transmission or gearbox to the correct positions you want.
+
+[is Motor]
+
+Then select one of the gears as the motor. 
+This will be the object drives all other gears/shafts.
+
+
+[Motor speed]
+
+If "is Motor" checked, you can see the "Motor speed" property.
+Here you set the speed of the motor. Negativ values mean, you drive in the other direction.
+
+
+[is Shaft]
+
+If you have created shafts and added the GearDriver script to it, check the "is Shaft" checkbox to activate the object as a shaft.
+Don´t worry, if you forget this the script will automaticly do check this checkbox on start. The script recognize that there is
+no "Gear" script attached to it, so it decide to mark it as a shaft.
+
+
+[Live Update Powerchain]
+
+On the motor (the gear you marked as "is Motor") you can select "Live Update Powerchain".
+If checked, every change to the gears will affect the transmission in real time.
+For example: Changing the speed of the motor will change the speed in real time on all gears.
+Changing the teeth count on one of the gears "Gear" scripts will also changing the speed(s) in real time.
+
+
+[Update Powerchain Once]
+
+This Button is used if "Live Update Powerchain" is deactivated.
+You can set a new motor speed or change gears and if you are ready to go, with "Update Powerchain Once" you set your changes.
+This is the standard way you should go, because it doesn´t need to update all values every frame.
+
+
+[Outputs connected]
+
+This is the list, where you add the connection to other gears or shafts.
+You only set where your power is going to. Not where the power comes from.
+So the last gears in a "chain" should have zero objects in the list.
+And the motor allways have at least one gear/shaft in this list.
+
+
+
+
+
+
+Thank you for downloading and using my tool.
+
+  Alexander Schlottau
+
+

@@ -1,0 +1,32 @@
+<TemplateMenu xmlns="MarkLight">
+
+	<Region Id="MainRegionMount" Alignment="Center" Width="640" Height="480"/>
+	<Region Id="MainRegion" Alignment="Center" Width="640" Height="480" Offset="0,480,0,0">
+		<Image Id="MainBackgroundImage" Width="100%" Height="100%" BackgroundColor="#FFFFFF" Alpha="0.5"/>
+
+		<!--PLACE CONTENT HERE-->
+		<Region Id="MainContentRegion" Height="100px" Width="100%" Alignment="Center" BackgroundColor="#0000FF">
+		</Region>
+
+		<Button Style="BasicButtonTypeA" Id="ExitButton" Text="EXIT" Click="Exit" Alignment="Bottom" Offset="0,0,0,20"/>
+	</Region>
+
+	<!-- ANIMATIONS -->
+
+    <ViewAnimation Id="MainContentRegionInAnimation">
+        <Animate Field="MainContentRegion.Alpha" From="0" To="1.0" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="MainContentRegionOutAnimation">
+        <Animate Field="MainContentRegion.Alpha" From="1.0" To="0" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="MainBackgroundImageInAnimation">
+        <Animate Field="MainBackgroundImage.Alpha" From="1.0" To="0.6" Duration="1000ms" />
+    </ViewAnimation>
+
+    <ViewAnimation Id="MainBackgroundImageOutAnimation">
+        <Animate Field="MainBackgroundImage.Alpha" From="0.6" To="1.0" Duration="1000ms" />
+    </ViewAnimation>
+
+</TemplateMenu>

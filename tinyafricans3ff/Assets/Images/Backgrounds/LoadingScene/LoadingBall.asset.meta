@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bfe47e0ad403b47d19208df83eeaab3a
+timeCreated: 1464469594
+licenseType: Free
+NativeFormatImporter:
+  userData: "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD
+    SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg version=\"1.1\"
+    xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"
+    x=\"0\" y=\"0\" width=\"32.606\" height=\"32.369\" viewBox=\"0, 0, 32.606, 32.369\">\n
+    \ <g id=\"LoadingBall\" transform=\"translate(-607.394, -76.631)\">\n    <path
+    d=\"M623.697,109 C614.693,109 607.394,101.754 607.394,92.816 C607.394,83.877 614.693,76.631
+    623.697,76.631 C632.701,76.631 640,83.877 640,92.816 C640,101.754 632.701,109
+    623.697,109 z\" fill=\"#EEEEEE\"/>\n  </g>\n</svg>\n"
+  assetBundleName: 
+  assetBundleVariant: 

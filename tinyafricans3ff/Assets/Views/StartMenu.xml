@@ -1,0 +1,15 @@
+<StartMenu Width="640" Height="480" xmlns="MarkLight">
+
+	<Region Alignment="Top" Width="100%" Height="100%">
+		<GameTitle Alignment="Top" Width="100%" Height="100%"/>
+	</Region>
+
+	<Group Spacing="0" Alignment="Center" Offset="0,{MainMenuButtonGroupTopOffset},0,0" Id="MainMenuButtonGroup" Width="100%" Height="100%">
+		<Button Style="BasicButtonTypeA" Alignment="Top" Id="PlayButton" Text="PLAY" FontSize="28" Click="Play" Offset="0,0,{PlayButtonRightOffset},0" />
+		<Button Style="BasicButtonTypeA" Alignment="Top" Id="OptionsButton" Text="OPTIONS" Click="Options" Offset="{OptionsButtonLeftOffset},0,0,0" />
+	</Group>
+
+	<OptionsMenu Id="OptionsMenu"/>
+	<GameSettings Id="GameSettings"/>
+
+</StartMenu>
